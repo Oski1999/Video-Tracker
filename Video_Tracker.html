@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Video Project Tracker</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0f0f0f;
+    --surface: #191919;
+    --surface2: #222222;
+    --border: #2a2a2a;
+    --border2: #333333;
+    --text: #f0f0f0;
+    --text2: #888;
+    --text3: #555;
+    --accent: #e8e8e8;
+
+    --idea:     #7c6fe0;
+    --brainstorm: #4a9eff;
+    --casting:  #e05c8a;
+    --outline:  #f0a030;
+    --music:    #2bc48a;
+    --filming:  #e0612e;
+    --editing:  #7ab830;
+    --finishing:#888;
+
+    --idea-bg:      rgba(124,111,224,0.12);
+    --brainstorm-bg:rgba(74,158,255,0.12);
+    --casting-bg:   rgba(224,92,138,0.12);
+    --outline-bg:   rgba(240,160,48,0.12);
+    --music-bg:     rgba(43,196,138,0.12);
+    --filming-bg:   rgba(224,97,46,0.12);
+    --editing-bg:   rgba(122,184,48,0.12);
+    --finishing-bg: rgba(136,136,136,0.12);
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+    line-height: 1.5;
+  }
+
+  /* Layout */
+  .app { max-width: 860px; margin: 0 auto; padding: 2.5rem 1.5rem 4rem; }
+
+  /* Header */
+  .top-bar {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  .brand { display: flex; flex-direction: column; gap: 2px; }
+  .brand-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.15em;
+    color: var(--text3);
+    text-transform: uppercase;
+  }
+  .brand-title {
+    font-size: 26px;
+    font-weight: 600;
+    color: var(--text);
+    letter-spacing: -0.02em;
+  }
+  .add-btn {
+    background: var(--text);
+    color: #0f0f0f;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 20px;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: 'DM Sans', sans-serif;
+    cursor: pointer;
+    letter-spacing: 0.01em;
+    transition: opacity 0.15s;
+    white-space: nowrap;
+  }
+  .add-btn:hover { opacity: 0.85; }
+
+  /* Stats row */
+  .stats-row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+  }
+  .stat-chip {
+    background: var(--surface);
+    border: 0.5px solid var(--border);
+    border-radius: 8px;
+    padding: 8px 14px;
+    font-size: 12px;
+    color: var(--text2);
+    font-family: 'DM Mono', monospace;
+  }
+  .stat-chip span { color: var(--text); font-weight: 500; }
+
+  /* Pipeline legend */
+  .pipeline {
+    display: flex;
+    gap: 0;
+    margin-bottom: 2.5rem;
+    border: 0.5px solid var(--border);
+    border-radius: 10px;
+    overflow: hidden;
+    font-family: 'DM Mono', monospace;
+  }
+  .pipe-step {
+    flex: 1;
+    text-align: center;
+    padding: 7px 4px;
+    font-size: 9px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--text3);
+    border-right: 0.5px solid var(--border);
+    transition: background 0.15s, color 0.15s;
+    cursor: default;
+  }
+  .pipe-step:last-child { border-right: none; }
+  .pipe-step.has-items { color: var(--text2); background: var(--surface); }
+
+  /* Group sections */
+  .group-block { margin-bottom: 2rem; }
+  .group-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  .group-name {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--text3);
+  }
+  .group-line { flex: 1; height: 0.5px; background: var(--border); }
+  .group-count {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    color: var(--text3);
+  }
+
+  /* Project cards */
+  .cards { display: flex; flex-direction: column; gap: 8px; }
+
+  .card {
+    background: var(--surface);
+    border: 0.5px solid var(--border);
+    border-left: 3px solid #444;
+    border-radius: 10px;
+    padding: 14px 16px;
+    display: flex;
+    gap: 14px;
+    align-items: flex-start;
+    transition: border-color 0.15s, background 0.15s;
+  }
+  .card:hover { background: var(--surface2); border-color: var(--border2); }
+
+  .card-main { flex: 1; min-width: 0; }
+  .card-title-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 6px;
+  }
+  .card-title {
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--text);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 340px;
+  }
+  .stage-badge {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 2px 8px;
+    border-radius: 5px;
+    white-space: nowrap;
+  }
+  .cat-badge {
+    font-size: 11px;
+    color: var(--text3);
+    background: var(--surface2);
+    padding: 2px 8px;
+    border-radius: 5px;
+    border: 0.5px solid var(--border);
+    white-space: nowrap;
+  }
+  .card-meta {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+  .deadline-tag {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    padding: 2px 8px;
+    border-radius: 5px;
+    white-space: nowrap;
+  }
+  .dl-ok   { background: rgba(122,184,48,0.12); color: #7ab830; }
+  .dl-soon { background: rgba(240,160,48,0.12); color: #f0a030; }
+  .dl-urgent { background: rgba(224,97,46,0.15); color: #e0612e; }
+  .dl-over { background: rgba(180,40,40,0.15); color: #e05555; }
+
+  .card-notes {
+    font-size: 12px;
+    color: var(--text2);
+    margin-top: 8px;
+    padding-top: 8px;
+    border-top: 0.5px solid var(--border);
+    line-height: 1.6;
+    white-space: pre-wrap;
+  }
+
+  .card-actions { display: flex; flex-direction: column; gap: 4px; flex-shrink: 0; }
+  .icon-btn {
+    background: none;
+    border: 0.5px solid var(--border);
+    border-radius: 6px;
+    width: 28px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: var(--text3);
+    font-size: 13px;
+    transition: all 0.15s;
+  }
+  .icon-btn:hover { border-color: var(--border2); color: var(--text); background: var(--surface2); }
+  .icon-btn.del:hover { border-color: #e05555; color: #e05555; }
+
+  /* Empty state */
+  .empty-state {
+    text-align: center;
+    padding: 4rem 0;
+    color: var(--text3);
+  }
+  .empty-state p { font-size: 14px; margin-top: 8px; }
+  .empty-icon { font-size: 32px; margin-bottom: 12px; opacity: 0.4; }
+
+  /* Modal overlay */
+  .overlay {
+    position: fixed; inset: 0;
+    background: rgba(0,0,0,0.7);
+    display: flex; align-items: center; justify-content: center;
+    z-index: 200;
+    padding: 1rem;
+    opacity: 0; pointer-events: none;
+    transition: opacity 0.2s;
+  }
+  .overlay.open { opacity: 1; pointer-events: all; }
+
+  .modal {
+    background: var(--surface);
+    border: 0.5px solid var(--border2);
+    border-radius: 14px;
+    padding: 1.75rem;
+    width: min(500px, 100%);
+    max-height: 90vh;
+    overflow-y: auto;
+    transform: translateY(12px);
+    transition: transform 0.2s;
+  }
+  .overlay.open .modal { transform: translateY(0); }
+
+  .modal-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+  }
+  .modal-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--text);
+    letter-spacing: -0.01em;
+  }
+  .close-btn {
+    background: none;
+    border: none;
+    color: var(--text3);
+    font-size: 20px;
+    cursor: pointer;
+    line-height: 1;
+    padding: 2px 6px;
+    border-radius: 4px;
+  }
+  .close-btn:hover { color: var(--text); background: var(--surface2); }
+
+  .field { margin-bottom: 1.1rem; }
+  .field label {
+    display: block;
+    font-size: 11px;
+    font-family: 'DM Mono', monospace;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--text3);
+    margin-bottom: 6px;
+  }
+  .field input,
+  .field textarea,
+  .field select {
+    width: 100%;
+    background: var(--bg);
+    border: 0.5px solid var(--border2);
+    border-radius: 8px;
+    padding: 10px 12px;
+    font-size: 14px;
+    font-family: 'DM Sans', sans-serif;
+    color: var(--text);
+    outline: none;
+    transition: border-color 0.15s;
+  }
+  .field input:focus,
+  .field textarea:focus,
+  .field select:focus { border-color: #555; }
+  .field textarea { resize: vertical; min-height: 80px; }
+  .field select option { background: #222; }
+
+  /* Stage grid picker */
+  .stage-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 6px;
+  }
+  .stage-opt {
+    padding: 8px 6px;
+    border-radius: 8px;
+    border: 0.5px solid var(--border);
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+    color: var(--text3);
+    background: var(--bg);
+    transition: all 0.12s;
+  }
+  .stage-opt:hover { border-color: var(--border2); color: var(--text2); }
+  .stage-opt.active { border-width: 1.5px; }
+
+  .modal-footer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+    margin-top: 1.5rem;
+    padding-top: 1.25rem;
+    border-top: 0.5px solid var(--border);
+  }
+  .btn-cancel {
+    background: none;
+    border: 0.5px solid var(--border2);
+    border-radius: 8px;
+    padding: 9px 18px;
+    font-size: 13px;
+    font-family: 'DM Sans', sans-serif;
+    color: var(--text2);
+    cursor: pointer;
+    transition: all 0.15s;
+  }
+  .btn-cancel:hover { color: var(--text); border-color: #555; }
+  .btn-save {
+    background: var(--text);
+    color: #0f0f0f;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 22px;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: 'DM Sans', sans-serif;
+    cursor: pointer;
+    transition: opacity 0.15s;
+  }
+  .btn-save:hover { opacity: 0.85; }
+
+  /* scrollbar */
+  ::-webkit-scrollbar { width: 6px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb { background: var(--border2); border-radius: 3px; }
+
+  @media (max-width: 540px) {
+    .stage-grid { grid-template-columns: repeat(2, 1fr); }
+    .pipeline { display: none; }
+    .card-title { max-width: 200px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="app">
+
+  <div class="top-bar">
+    <div class="brand">
+      <span class="brand-label">Oscar Torres Jr.</span>
+      <span class="brand-title">video projects</span>
+    </div>
+    <button class="add-btn" onclick="openAdd()">+ new project</button>
+  </div>
+
+  <div class="stats-row" id="statsRow"></div>
+
+  <div class="pipeline" id="pipeline"></div>
+
+  <div id="projectList"></div>
+
+</div>
+
+<!-- Modal -->
+<div class="overlay" id="overlay" onclick="bgClose(event)">
+  <div class="modal" onclick="event.stopPropagation()">
+    <div class="modal-header">
+      <span class="modal-title" id="modalTitle">new project</span>
+      <button class="close-btn" onclick="closeModal()">×</button>
+    </div>
+
+    <div class="field">
+      <label>title</label>
+      <input id="fTitle" type="text" placeholder="e.g. Mother's Day video">
+    </div>
+
+    <div class="field">
+      <label>category</label>
+      <input id="fCategory" type="text" placeholder="Church, School, Sealedcase…">
+    </div>
+
+    <div class="field">
+      <label>stage</label>
+      <div class="stage-grid" id="stageGrid"></div>
+    </div>
+
+    <div class="field">
+      <label>deadline</label>
+      <input id="fDeadline" type="date">
+    </div>
+
+    <div class="field">
+      <label>notes</label>
+      <textarea id="fNotes" placeholder="cast ideas, music direction, status updates…"></textarea>
+    </div>
+
+    <div class="modal-footer">
+      <button class="btn-cancel" onclick="closeModal()">cancel</button>
+      <button class="btn-save" onclick="saveProject()">save</button>
+    </div>
+  </div>
+</div>
+
+<script>
+const STAGES = [
+  { key: 'idea',        label: 'idea',        color: '#7c6fe0', bg: 'rgba(124,111,224,0.15)' },
+  { key: 'brainstorm',  label: 'brainstorm',  color: '#4a9eff', bg: 'rgba(74,158,255,0.15)'  },
+  { key: 'casting',     label: 'casting',     color: '#e05c8a', bg: 'rgba(224,92,138,0.15)'  },
+  { key: 'outline',     label: 'outline',     color: '#f0a030', bg: 'rgba(240,160,48,0.15)'  },
+  { key: 'music',       label: 'music',       color: '#2bc48a', bg: 'rgba(43,196,138,0.15)'  },
+  { key: 'filming',     label: 'filming',     color: '#e0612e', bg: 'rgba(224,97,46,0.15)'   },
+  { key: 'editing',     label: 'editing',     color: '#7ab830', bg: 'rgba(122,184,48,0.15)'  },
+  { key: 'finishing',   label: 'finishing',   color: '#999',    bg: 'rgba(150,150,150,0.15)' }
+];
+const stageMap = {};
+STAGES.forEach(s => stageMap[s.key] = s);
+
+let projects = [];
+let editId = null;
+let selStage = 'idea';
+
+function load() {
+  try { projects = JSON.parse(localStorage.getItem('vpt_v2') || '[]'); } catch(e) { projects = []; }
+}
+function persist() {
+  localStorage.setItem('vpt_v2', JSON.stringify(projects));
+}
+function uid() { return Date.now().toString(36) + Math.random().toString(36).slice(2,6); }
+
+function daysUntil(ds) {
+  if (!ds) return null;
+  const d = new Date(ds + 'T00:00:00');
+  const n = new Date(); n.setHours(0,0,0,0);
+  return Math.round((d - n) / 86400000);
+}
+function urgencyScore(p) {
+  const d = daysUntil(p.deadline);
+  if (d === null) return 9999;
+  if (d < 0) return d - 10000;
+  return d;
+}
+function urgencyGroup(p) {
+  const d = daysUntil(p.deadline);
+  if (d === null) return 'upcoming';
+  if (d < 0)  return 'overdue';
+  if (d <= 7) return 'this-week';
+  if (d <= 30) return 'this-month';
+  return 'upcoming';
+}
+const GROUP_ORDER = ['overdue','this-week','this-month','upcoming'];
+const GROUP_LABELS = {
+  'overdue':    'overdue',
+  'this-week':  'due this week',
+  'this-month': 'due this month',
+  'upcoming':   'upcoming / no deadline'
+};
+
+function fmtDate(ds) {
+  if (!ds) return '';
+  const d = new Date(ds + 'T00:00:00');
+  return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+}
+function esc(s) {
+  return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+function renderStats() {
+  const el = document.getElementById('statsRow');
+  const total = projects.length;
+  const overdue = projects.filter(p => { const d=daysUntil(p.deadline); return d!==null&&d<0; }).length;
+  const finishing = projects.filter(p => p.stage==='finishing').length;
+  el.innerHTML = `
+    <div class="stat-chip">total <span>${total}</span></div>
+    <div class="stat-chip">overdue <span style="color:${overdue>0?'#e05555':'inherit'}">${overdue}</span></div>
+    <div class="stat-chip">finishing <span>${finishing}</span></div>
+  `;
+}
+
+function renderPipeline() {
+  const el = document.getElementById('pipeline');
+  el.innerHTML = STAGES.map(s => {
+    const count = projects.filter(p => p.stage === s.key).length;
+    return `<div class="pipe-step ${count>0?'has-items':''}" style="${count>0?'color:'+s.color+';border-bottom:2px solid '+s.color:''}">
+      ${s.label}${count>0?'<br><span style="font-size:11px">'+count+'</span>':''}
+    </div>`;
+  }).join('');
+}
+
+function renderProjects() {
+  const el = document.getElementById('projectList');
+  if (!projects.length) {
+    el.innerHTML = `<div class="empty-state">
+      <div class="empty-icon">▤</div>
+      <p>no projects yet — hit <strong>+ new project</strong> to start</p>
+    </div>`;
+    return;
+  }
+
+  const groups = {};
+  GROUP_ORDER.forEach(g => groups[g] = []);
+  projects.forEach(p => groups[urgencyGroup(p)].push(p));
+
+  let html = '';
+  GROUP_ORDER.forEach(g => {
+    const items = groups[g].sort((a,b) => urgencyScore(a) - urgencyScore(b));
+    if (!items.length) return;
+    html += `<div class="group-block">
+      <div class="group-header">
+        <span class="group-name">${GROUP_LABELS[g]}</span>
+        <div class="group-line"></div>
+        <span class="group-count">${items.length}</span>
+      </div>
+      <div class="cards">`;
+
+    items.forEach(p => {
+      const s = stageMap[p.stage] || STAGES[0];
+      const days = daysUntil(p.deadline);
+      let dlHtml = '';
+      if (p.deadline) {
+        let cls = 'dl-ok', label = fmtDate(p.deadline);
+        if (days < 0) { cls='dl-over'; label=`${Math.abs(days)}d overdue`; }
+        else if (days === 0) { cls='dl-urgent'; label='due today'; }
+        else if (days === 1) { cls='dl-urgent'; label='tomorrow'; }
+        else if (days <= 7) { cls='dl-soon'; label=`${days}d left`; }
+        dlHtml = `<span class="deadline-tag ${cls}">${label}</span>`;
+      }
+
+      html += `<div class="card" style="border-left-color:${s.color}">
+        <div class="card-main">
+          <div class="card-title-row">
+            <span class="card-title">${esc(p.title)}</span>
+            <span class="stage-badge" style="background:${s.bg};color:${s.color}">${s.label}</span>
+            ${p.category ? `<span class="cat-badge">${esc(p.category)}</span>` : ''}
+          </div>
+          <div class="card-meta">
+            ${dlHtml}
+          </div>
+          ${p.notes ? `<div class="card-notes">${esc(p.notes)}</div>` : ''}
+        </div>
+        <div class="card-actions">
+          <button class="icon-btn" title="edit" onclick="openEdit('${p.id}')">✎</button>
+          <button class="icon-btn del" title="delete" onclick="deleteProject('${p.id}')">✕</button>
+        </div>
+      </div>`;
+    });
+
+    html += `</div></div>`;
+  });
+  el.innerHTML = html;
+}
+
+function render() {
+  renderStats();
+  renderPipeline();
+  renderProjects();
+}
+
+function buildStageGrid(selected) {
+  document.getElementById('stageGrid').innerHTML = STAGES.map(s => {
+    const active = s.key === selected;
+    return `<div class="stage-opt ${active?'active':''}"
+      style="${active ? `background:${s.bg};color:${s.color};border-color:${s.color}` : ''}"
+      onclick="selectStage('${s.key}')">${s.label}</div>`;
+  }).join('');
+}
+
+function selectStage(key) {
+  selStage = key;
+  buildStageGrid(key);
+}
+
+function openAdd() {
+  editId = null; selStage = 'idea';
+  document.getElementById('modalTitle').textContent = 'new project';
+  document.getElementById('fTitle').value = '';
+  document.getElementById('fCategory').value = '';
+  document.getElementById('fDeadline').value = '';
+  document.getElementById('fNotes').value = '';
+  buildStageGrid('idea');
+  document.getElementById('overlay').classList.add('open');
+  setTimeout(() => document.getElementById('fTitle').focus(), 80);
+}
+
+function openEdit(id) {
+  const p = projects.find(x => x.id === id);
+  if (!p) return;
+  editId = id; selStage = p.stage;
+  document.getElementById('modalTitle').textContent = 'edit project';
+  document.getElementById('fTitle').value = p.title;
+  document.getElementById('fCategory').value = p.category || '';
+  document.getElementById('fDeadline').value = p.deadline || '';
+  document.getElementById('fNotes').value = p.notes || '';
+  buildStageGrid(p.stage);
+  document.getElementById('overlay').classList.add('open');
+}
+
+function closeModal() { document.getElementById('overlay').classList.remove('open'); }
+function bgClose(e) { if (e.target === document.getElementById('overlay')) closeModal(); }
+
+function saveProject() {
+  const title = document.getElementById('fTitle').value.trim();
+  if (!title) { document.getElementById('fTitle').focus(); return; }
+  const data = {
+    title,
+    category: document.getElementById('fCategory').value.trim(),
+    stage: selStage,
+    deadline: document.getElementById('fDeadline').value,
+    notes: document.getElementById('fNotes').value.trim()
+  };
+  if (editId) {
+    const idx = projects.findIndex(x => x.id === editId);
+    if (idx > -1) projects[idx] = { ...projects[idx], ...data, updated: Date.now() };
+  } else {
+    projects.push({ id: uid(), ...data, created: Date.now() });
+  }
+  persist();
+  render();
+  closeModal();
+}
+
+function deleteProject(id) {
+  if (!confirm('Delete this project? This cannot be undone.')) return;
+  projects = projects.filter(x => x.id !== id);
+  persist();
+  render();
+}
+
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
+
+load();
+render();
+</script>
+</body>
+</html>
