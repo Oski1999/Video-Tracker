@@ -32,9 +32,11 @@ for (const v of videos) {
     const d = Number(
       execFileSync('ffprobe', ['-v', 'error', '-select_streams', 'v:0', '-count_packets', '-show_entries', 'stream=nb_read_packets', '-of', 'csv=p=0', mp4])
         .toString()
-        .trim(),
+        .trim()
+        .replace(/,$/, ''),
     );
     const sec = d / FPS;
+    if (!Number.isFinite(d)) fail(`could not read the frame count of ${mp4}`);
     console.log(`  mp4 ${d} frames = ${sec.toFixed(3)} s (runtime ${list.runtime_seconds} s)`);
     if (Math.abs(sec - list.runtime_seconds) > 0.1) fail(`MP4 length ${sec.toFixed(3)} s vs ${list.runtime_seconds}`);
     if (sec >= 180) fail('MP4 over 3:00');
