@@ -1,0 +1,716 @@
+{
+  "video": 2,
+  "slug": "02-piano",
+  "title": "Music: Piano",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "words_per_minute": 140,
+  "runtime_seconds": 150.8,
+  "runtime": "2:31",
+  "script_notes": [
+    "Production note: confirm the duet rule before filming. See Booklet issues, item 1."
+  ],
+  "script_graphic_directions": [
+    "Graphic: three category cards."
+  ],
+  "shots": [
+    {
+      "type": "cold_open",
+      "duration": 4.0,
+      "framing": "B-roll: slow push-in on hands over the keys.",
+      "on_camera": "B-roll",
+      "camera": "Slow push-in on hands over the keys",
+      "lines": [],
+      "graphics": [],
+      "transition_in": "Fade from black, 8 frames",
+      "storyboard_frame": 1,
+      "storyboard_caption": "Cold open: slow push-in on hands over the keys",
+      "audio": "Room sound or music only",
+      "id": "02-01",
+      "start": 0.0
+    },
+    {
+      "type": "title_card",
+      "duration": 2.0,
+      "framing": "Full-screen shared title card",
+      "on_camera": "Graphic",
+      "camera": "Graphic animation only",
+      "lines": [],
+      "graphics": [
+        {
+          "kind": "title_card",
+          "in": 0,
+          "out": 2.0,
+          "anim": "Red band sweeps up at -9° (10 frames), shield scales 0.9→1.0, text tracks in from right 30 px"
+        }
+      ],
+      "transition_in": "Hard cut on a music hit",
+      "storyboard_frame": null,
+      "storyboard_caption": "Shared title card (from the graphics kit)",
+      "audio": "Music sting",
+      "id": "02-02",
+      "start": 4.0
+    },
+    {
+      "type": "category_card",
+      "duration": 2.5,
+      "framing": "Full-screen category card",
+      "on_camera": "Graphic",
+      "camera": "Graphic animation only",
+      "lines": [],
+      "graphics": [
+        {
+          "kind": "category_card",
+          "video_no": "02",
+          "title": "MUSIC",
+          "subtitle": "PIANO",
+          "in": 0,
+          "out": 2.5,
+          "anim": "Black band wipes down at -9° (10 frames), title punches in 1.15→1.0 scale (8 frames), subtitle letter-spaces in, small logo fades in bottom right"
+        }
+      ],
+      "transition_in": "Red band wipe, 10 frames",
+      "storyboard_frame": 2,
+      "storyboard_caption": "Category card",
+      "audio": "Music continues",
+      "id": "02-03",
+      "start": 6.0
+    },
+    {
+      "type": "two_shot",
+      "duration": 6.78,
+      "framing": "Medium two-shot, P1 left, P2 right, shield logo soft on the wall behind",
+      "on_camera": "P1, P2",
+      "camera": "Locked off with a slow 3% push-in across the shot",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P1",
+          "text": "Two to five minutes. One piano. Three judges watching your hands. Let's get you ready.",
+          "start": 0.0,
+          "duration": 6.78
+        }
+      ],
+      "graphics": [
+        {
+          "kind": "name_bars",
+          "text": [
+            "[P1 NAME]",
+            "[P2 NAME]"
+          ],
+          "in": 0.5,
+          "out": 5.0,
+          "anim": "Red strip wipes in from left, then black bar unrolls right (8 frames); reverse to exit"
+        }
+      ],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 3,
+      "storyboard_caption": "Two-shot, name bars come up",
+      "section": "Opening",
+      "id": "02-04",
+      "start": 8.5
+    },
+    {
+      "type": "close_up",
+      "duration": 5.49,
+      "framing": "Medium close-up on P2, eyeline just off camera",
+      "on_camera": "P2",
+      "camera": "Locked off; hard cut in",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P2",
+          "text": "Welcome to the SoCal Classic Fine Arts explainers. This one's for pianists.",
+          "start": 0.0,
+          "duration": 5.49
+        }
+      ],
+      "graphics": [],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 3,
+      "storyboard_caption": "Coverage for frame 3: Two-shot, name bars come up",
+      "section": "Opening",
+      "id": "02-05",
+      "start": 15.28
+    },
+    {
+      "type": "graphic",
+      "duration": 6.35,
+      "framing": "Full-screen Shield Classic graphic",
+      "on_camera": "P1 voice-over",
+      "camera": "Graphic animation only",
+      "voice": "Voice-over",
+      "lines": [
+        {
+          "speaker": "P1",
+          "text": "There are three piano categories. Sacred Piano. Classical. And new this year, Piano Duet.",
+          "start": 0.0,
+          "duration": 6.35
+        }
+      ],
+      "graphics": [
+        {
+          "kind": "info_card",
+          "title": "3 CATEGORIES",
+          "subtitle": "SACRED · CLASSICAL · DUET (NEW)",
+          "in": 0,
+          "out": 6.35,
+          "anim": "Black band wipes down at -9° (10 frames), title slides up 40 px with ease-out (12 frames), subtitle fades in 6 frames later"
+        }
+      ],
+      "transition_in": "Red band wipe, 10 frames",
+      "storyboard_frame": 4,
+      "storyboard_caption": "Full-screen graphic",
+      "section": "The categories",
+      "id": "02-06",
+      "start": 20.77
+    },
+    {
+      "type": "close_up",
+      "duration": 6.35,
+      "framing": "Medium close-up on P2, eyeline just off camera",
+      "on_camera": "P2",
+      "camera": "Locked off; hard cut in",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P2",
+          "text": "Each school can enter three students per division in Sacred, and three in Classical.",
+          "start": 0.0,
+          "duration": 6.35
+        }
+      ],
+      "graphics": [],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 4,
+      "storyboard_caption": "Coverage for frame 4: Full-screen graphic",
+      "section": "The categories",
+      "id": "02-07",
+      "start": 27.12
+    },
+    {
+      "type": "close_up",
+      "duration": 6.35,
+      "framing": "Medium close-up on P1, eyeline just off camera",
+      "on_camera": "P1",
+      "camera": "Locked off; hard cut in",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P1",
+          "text": "For duets, it's one per school in Junior High, and one in Senior High.",
+          "start": 0.0,
+          "duration": 6.35
+        }
+      ],
+      "graphics": [],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 4,
+      "storyboard_caption": "Coverage for frame 4: Full-screen graphic",
+      "section": "The categories",
+      "id": "02-08",
+      "start": 33.47
+    },
+    {
+      "type": "graphic",
+      "duration": 10.13,
+      "framing": "Full-screen Shield Classic checklist",
+      "on_camera": "P2, P1",
+      "camera": "Graphic animation only",
+      "voice": "Voice-over",
+      "lines": [
+        {
+          "speaker": "P2",
+          "text": "Your piece has to be sacred or classical.",
+          "start": 0.0,
+          "duration": 3.78
+        },
+        {
+          "speaker": "P1",
+          "text": "And \"classical\" means the style, not just the Classical era. Popular music doesn't count.",
+          "start": 3.78,
+          "duration": 6.35
+        }
+      ],
+      "graphics": [
+        {
+          "kind": "checklist",
+          "title": "YOUR PIECE",
+          "items": [
+            "Sacred or classical style",
+            "No movie soundtracks",
+            "2–5 minutes",
+            "Not last year's piece"
+          ],
+          "mode": "full",
+          "checked_at_start": [],
+          "build_at": {
+            "0": 0.3
+          },
+          "in": 0,
+          "out": 10.13,
+          "anim": "Header bar slides in from left; unchecked items sit at 40% opacity; each item gets a red check pop and goes to full opacity at its build_at time (seconds from shot start)"
+        }
+      ],
+      "transition_in": "Red band wipe, 10 frames",
+      "storyboard_frame": 5,
+      "storyboard_caption": "Checklist builds",
+      "section": "Choosing your piece",
+      "id": "02-09",
+      "start": 39.82
+    },
+    {
+      "type": "close_up",
+      "duration": 8.92,
+      "framing": "Medium close-up on P2, eyeline just off camera",
+      "on_camera": "P2",
+      "camera": "Locked off; hard cut in",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P2",
+          "text": "Movie soundtracks are out too, even the ones that sound classical. Same with Gospel rock, Gospel country, jazz and ragtime.",
+          "start": 0.0,
+          "duration": 8.92
+        }
+      ],
+      "graphics": [
+        {
+          "kind": "checklist",
+          "title": "YOUR PIECE",
+          "items": [
+            "Sacred or classical style",
+            "No movie soundtracks",
+            "2–5 minutes",
+            "Not last year's piece"
+          ],
+          "mode": "side_panel",
+          "checked_at_start": [
+            0
+          ],
+          "build_at": {
+            "1": 0.3
+          },
+          "in": 0,
+          "out": 8.92,
+          "anim": "Compact panel on the right third of frame over the speaker shot; items already checked show ticked; new items tick at build_at"
+        }
+      ],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 5,
+      "storyboard_caption": "Coverage for frame 5: Checklist builds",
+      "section": "Choosing your piece",
+      "id": "02-10",
+      "start": 49.95
+    },
+    {
+      "type": "close_up",
+      "duration": 8.92,
+      "framing": "Medium close-up on P1, eyeline just off camera",
+      "on_camera": "P1",
+      "camera": "Locked off; hard cut in",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P1",
+          "text": "Play one piece or one medley, two to five minutes. Too short or too long costs a point per judge.",
+          "start": 0.0,
+          "duration": 8.92
+        }
+      ],
+      "graphics": [
+        {
+          "kind": "checklist",
+          "title": "YOUR PIECE",
+          "items": [
+            "Sacred or classical style",
+            "No movie soundtracks",
+            "2–5 minutes",
+            "Not last year's piece"
+          ],
+          "mode": "side_panel",
+          "checked_at_start": [
+            0,
+            1
+          ],
+          "build_at": {
+            "2": 0.3,
+            "3": 1.5
+          },
+          "in": 0,
+          "out": 8.92,
+          "anim": "Compact panel on the right third of frame over the speaker shot; items already checked show ticked; new items tick at build_at"
+        }
+      ],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 5,
+      "storyboard_caption": "Coverage for frame 5: Checklist builds",
+      "section": "Choosing your piece",
+      "id": "02-11",
+      "start": 58.87
+    },
+    {
+      "type": "close_up",
+      "duration": 4.21,
+      "framing": "Medium close-up on P2, eyeline just off camera",
+      "on_camera": "P2",
+      "camera": "Locked off; hard cut in",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P2",
+          "text": "Elementary players, you won't lose points for running short.",
+          "start": 0.0,
+          "duration": 4.21
+        }
+      ],
+      "graphics": [],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 5,
+      "storyboard_caption": "Coverage for frame 5: Checklist builds",
+      "section": "Choosing your piece",
+      "id": "02-12",
+      "start": 67.79
+    },
+    {
+      "type": "close_up",
+      "duration": 11.92,
+      "framing": "Medium close-up on P1, eyeline just off camera",
+      "on_camera": "P1",
+      "camera": "Locked off; hard cut in",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P1",
+          "text": "Here's a big one. Is your classical piece from after 1950? Send it to the head piano judge for approval, at least a month before the competition.",
+          "start": 0.0,
+          "duration": 11.92
+        }
+      ],
+      "graphics": [
+        {
+          "kind": "rule_popup",
+          "text": "AFTER 1950? GET APPROVAL",
+          "in": 0.3,
+          "out": 11.62,
+          "anim": "Slides in from right 60 px with 6-frame ease-out, small 1.05 scale pop, slides out at the end"
+        }
+      ],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 6,
+      "storyboard_caption": "P1 close-up, leans in",
+      "section": "Choosing your piece",
+      "id": "02-13",
+      "start": 72.0
+    },
+    {
+      "type": "close_up",
+      "duration": 4.21,
+      "framing": "Medium close-up on P2, eyeline just off camera",
+      "on_camera": "P2",
+      "camera": "Locked off; hard cut in",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P2",
+          "text": "And don't repeat the piece you played last year.",
+          "start": 0.0,
+          "duration": 4.21
+        }
+      ],
+      "graphics": [],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 6,
+      "storyboard_caption": "Coverage for frame 6: P1 close-up, leans in",
+      "section": "Choosing your piece",
+      "id": "02-14",
+      "start": 83.92
+    },
+    {
+      "type": "broll",
+      "duration": 6.78,
+      "framing": "B-roll: copies and judging sheets fanned out",
+      "on_camera": "P1, P2 voice-over",
+      "camera": "Pages fan out one by one from a stack",
+      "voice": "Voice-over",
+      "lines": [
+        {
+          "speaker": "P1",
+          "text": "When you're called, give the judges three copies of your music and three judging sheets.",
+          "start": 0.0,
+          "duration": 6.78
+        }
+      ],
+      "graphics": [
+        {
+          "kind": "rule_popup",
+          "text": "3 COPIES + 3 SHEETS",
+          "in": 0.3,
+          "out": 6.48,
+          "anim": "Slides in from right 60 px with 6-frame ease-out, small 1.05 scale pop, slides out at the end"
+        }
+      ],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 7,
+      "storyboard_caption": "B-roll: copies and judging sheets fanned out",
+      "section": "The paperwork",
+      "id": "02-15",
+      "start": 88.13
+    },
+    {
+      "type": "close_up",
+      "duration": 3.35,
+      "framing": "Medium close-up on P2, eyeline just off camera",
+      "on_camera": "P2",
+      "camera": "Locked off; hard cut in",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P2",
+          "text": "Published music only. Clear copies, nothing handwritten.",
+          "start": 0.0,
+          "duration": 3.35
+        }
+      ],
+      "graphics": [
+        {
+          "kind": "rule_popup",
+          "text": "3 COPIES + 3 SHEETS",
+          "in": 0.3,
+          "out": 3.0500000000000003,
+          "anim": "Slides in from right 60 px with 6-frame ease-out, small 1.05 scale pop, slides out at the end"
+        }
+      ],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 7,
+      "storyboard_caption": "Coverage for frame 7: B-roll: copies and judging sheets fanned out",
+      "section": "The paperwork",
+      "id": "02-16",
+      "start": 94.91
+    },
+    {
+      "type": "close_up",
+      "duration": 5.49,
+      "framing": "Medium close-up on P1, eyeline just off camera",
+      "on_camera": "P1",
+      "camera": "Locked off; hard cut in",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P1",
+          "text": "Number every measure. Mark any changes you made to the printed music.",
+          "start": 0.0,
+          "duration": 5.49
+        }
+      ],
+      "graphics": [],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 7,
+      "storyboard_caption": "Coverage for frame 7: B-roll: copies and judging sheets fanned out",
+      "section": "The paperwork",
+      "id": "02-17",
+      "start": 98.26
+    },
+    {
+      "type": "close_up",
+      "duration": 4.21,
+      "framing": "Medium close-up on P2, eyeline just off camera",
+      "on_camera": "P2",
+      "camera": "Locked off; hard cut in",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P2",
+          "text": "Each one you miss is a point per judge.",
+          "start": 0.0,
+          "duration": 4.21
+        }
+      ],
+      "graphics": [],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 7,
+      "storyboard_caption": "Coverage for frame 7: B-roll: copies and judging sheets fanned out",
+      "section": "The paperwork",
+      "id": "02-18",
+      "start": 103.75
+    },
+    {
+      "type": "close_up",
+      "duration": 7.21,
+      "framing": "Medium close-up on P1, eyeline just off camera",
+      "on_camera": "P1",
+      "camera": "Locked off; hard cut in",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P1",
+          "text": "Be there at the start of your performance hour, ready to play when they call you.",
+          "start": 0.0,
+          "duration": 7.21
+        }
+      ],
+      "graphics": [],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 7,
+      "storyboard_caption": "Coverage for frame 7: B-roll: copies and judging sheets fanned out",
+      "section": "On the day",
+      "id": "02-19",
+      "start": 107.96
+    },
+    {
+      "type": "close_up",
+      "duration": 5.92,
+      "framing": "Medium close-up on P2, eyeline just off camera",
+      "on_camera": "P2",
+      "camera": "Locked off; hard cut in",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P2",
+          "text": "Introduce yourself, your school, your piece and the composer. Then the timing starts.",
+          "start": 0.0,
+          "duration": 5.92
+        }
+      ],
+      "graphics": [],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 7,
+      "storyboard_caption": "Coverage for frame 7: B-roll: copies and judging sheets fanned out",
+      "section": "On the day",
+      "id": "02-20",
+      "start": 115.17
+    },
+    {
+      "type": "two_shot",
+      "duration": 8.84,
+      "framing": "Medium two-shot, P1 left, P2 right, shield logo soft on the wall behind",
+      "on_camera": "P1, P2",
+      "camera": "Locked off with a slow 3% push-in across the shot",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P1",
+          "text": "Soloists, memorize your piece. If it isn't memorized, it won't be scored.",
+          "start": 0.0,
+          "duration": 5.49
+        },
+        {
+          "speaker": "P2",
+          "text": "Duet teams, you don't have to memorize.",
+          "start": 5.49,
+          "duration": 3.35
+        }
+      ],
+      "graphics": [
+        {
+          "kind": "rule_popup",
+          "text": "SOLOS MEMORIZED",
+          "in": 0.3,
+          "out": 8.54,
+          "anim": "Slides in from right 60 px with 6-frame ease-out, small 1.05 scale pop, slides out at the end"
+        }
+      ],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 8,
+      "storyboard_caption": "Two-shot",
+      "section": "On the day",
+      "id": "02-21",
+      "start": 121.09
+    },
+    {
+      "type": "close_up",
+      "duration": 5.06,
+      "framing": "Medium close-up on P1, eyeline just off camera",
+      "on_camera": "P1",
+      "camera": "Locked off; hard cut in",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P1",
+          "text": "After you play, collect your copies. Anything left behind gets tossed.",
+          "start": 0.0,
+          "duration": 5.06
+        }
+      ],
+      "graphics": [],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 8,
+      "storyboard_caption": "Coverage for frame 8: Two-shot",
+      "section": "On the day",
+      "id": "02-22",
+      "start": 129.93
+    },
+    {
+      "type": "two_shot",
+      "duration": 5.56,
+      "framing": "Medium two-shot, P1 left, P2 right, shield logo soft on the wall behind",
+      "on_camera": "P1, P2",
+      "camera": "Locked off with a slow 3% push-in across the shot",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P2",
+          "text": "Pick the right piece.",
+          "start": 0.0,
+          "duration": 2.06
+        },
+        {
+          "speaker": "P1",
+          "text": "Number every measure.",
+          "start": 2.06,
+          "duration": 1.75
+        },
+        {
+          "speaker": "P2",
+          "text": "And memorize it.",
+          "start": 3.81,
+          "duration": 1.75
+        }
+      ],
+      "graphics": [],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 9,
+      "storyboard_caption": "Two-shot, quick back-and-forth",
+      "section": "Outro",
+      "id": "02-23",
+      "start": 134.99
+    },
+    {
+      "type": "end_card",
+      "duration": 10.27,
+      "framing": "Full-screen Shield Classic end card",
+      "on_camera": "Voice-over",
+      "camera": "Graphic animation only",
+      "voice": "Voice-over",
+      "lines": [
+        {
+          "speaker": "P1",
+          "text": "Questions? Email us. The address is on your screen.",
+          "start": 0.0,
+          "duration": 4.21
+        },
+        {
+          "speaker": "P2",
+          "text": "See you February twenty-fourth through the twenty-sixth at Pacific Baptist School!",
+          "start": 4.21,
+          "duration": 5.06
+        }
+      ],
+      "graphics": [
+        {
+          "kind": "end_card",
+          "in": 0,
+          "out": 10.27,
+          "anim": "Red band drops in at -9 degrees (10 frames), shield fades up, QUESTIONS? then email then dates stagger in 6 frames apart; hold, then fade to black over the last 15 frames"
+        }
+      ],
+      "transition_in": "Cross-dissolve 12 frames",
+      "storyboard_frame": 10,
+      "storyboard_caption": "Shared end card",
+      "section": "Outro",
+      "id": "02-24",
+      "start": 140.55
+    }
+  ]
+}

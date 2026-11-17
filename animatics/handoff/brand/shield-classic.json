@@ -1,0 +1,72 @@
+{
+  "name": "Shield Classic",
+  "canvas": { "width": 1920, "height": 1080, "fps": 30, "safe_margin_px": 96 },
+  "colors": {
+    "black": "#141414",
+    "red": "#D7263D",
+    "white": "#FFFFFF",
+    "light_gray_text": "#D9D9D9",
+    "page_gray": "#F4F4F2",
+    "placeholder_set_gray": "#7C7F84"
+  },
+  "font": {
+    "family": "Poppins",
+    "source": "Google Fonts (weights 400, 600, 700, 800)",
+    "title": { "weight": 800, "letter_spacing_em": 0.02, "case": "UPPERCASE" },
+    "label": { "weight": 600, "letter_spacing_em": 0.35, "case": "UPPERCASE" },
+    "body": { "weight": 400 }
+  },
+  "logo": {
+    "file": "socal-logo.png",
+    "pixel_size": [531, 586],
+    "use_on": ["title_card", "category_card (small, bottom right)", "end_card (centered)"],
+    "rules": "Never recolor, stretch or put on a busy background. Keep at least 0.25x its width clear around it."
+  },
+  "signature_shape": {
+    "description": "One solid band rotated -9 degrees that crosses the frame edge to edge",
+    "angle_deg": -9,
+    "title_card": "Black background, red band across the bottom",
+    "category_card": "Red background, black band across the top",
+    "end_card": "Black background, red band across the top"
+  },
+  "elements": {
+    "title_card": {
+      "layout": "Logo left at 25% width; text block right: '2027 FINE ARTS' label, 'EXPLAINER SERIES' title on two lines, 'WHAT TO EXPECT · HOW TO WIN' in light gray",
+      "duration_s": 2.0
+    },
+    "category_card": {
+      "layout": "Label 'VIDEO 0N · GROUP' top left in white on the black band; big white title; spaced subtitle under it; small logo bottom right",
+      "title_size_px": "up to 230, shrink to fit 75% of width",
+      "duration_s": 2.5
+    },
+    "info_card": {
+      "layout": "Black background, 32 px red bar on the left edge, red spaced label, big white title, subtitle items as white chips (newest or key item as a red chip)"
+    },
+    "checklist": {
+      "full": "White background, black header bar with spaced white title, rows with a red square check and bold black text; unchecked rows at 40% opacity",
+      "side_panel": "Same look shrunk to the right third of the frame (about 600 px wide) over the speaker shot, 90% opaque white"
+    },
+    "rule_popup": {
+      "layout": "White box top right, 4 px radius, red text weight 800 at ~72 px, optional black caption weight 600 under it",
+      "max_on_screen_s": 6
+    },
+    "name_bars": {
+      "layout": "Bottom left: 44 px red strip then black box with white name (weight 700) and light gray 'GRADE · SCHOOL' line",
+      "on_screen_s": 4.5
+    },
+    "end_card": {
+      "layout": "Centered logo, 'QUESTIONS?' title, 'SoCalClassicFA@gmail.com', 'FEB 24–26, 2027 · PACIFIC BAPTIST SCHOOL' in light gray"
+    },
+    "captions": {
+      "layout": "Bottom center, max 2 lines, white Poppins 600 at 44 px on a 70% black box; speaker tag 'P1' or 'P2' as a small red chip at the left of the box",
+      "note": "Captions are for the animatic only, standing in for the voice track"
+    }
+  },
+  "motion": {
+    "default_ease": "cubic-bezier(0.2, 0.8, 0.2, 1)",
+    "band_wipe_frames": 10,
+    "text_in_frames": 12,
+    "stagger_frames": 6,
+    "cuts": "Hard cuts between camera shots; red band wipe into full-screen graphics; 12-frame cross-dissolve into the end card; 8-frame fade from black at the very start"
+  }
+}

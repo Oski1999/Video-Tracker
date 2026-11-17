@@ -1,0 +1,682 @@
+{
+  "video": 8,
+  "slug": "08-quizzing",
+  "title": "Bible Quizzing",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "words_per_minute": 140,
+  "runtime_seconds": 161.0,
+  "runtime": "2:41",
+  "script_notes": [],
+  "script_graphic_directions": [
+    "Graphic: 2027 books.",
+    "Graphic: simple scoreboard."
+  ],
+  "shots": [
+    {
+      "type": "cold_open",
+      "duration": 4.0,
+      "framing": "B-roll: quiz lights flash on, quizmaster points. \"Number three!\"",
+      "on_camera": "Quizmaster (extra)",
+      "camera": "Three quick light flashes on the middle quizzer, then quizmaster points",
+      "lines": [
+        {
+          "speaker": "EXTRA",
+          "text": "Number three!",
+          "start": 2.4,
+          "duration": 1.2
+        }
+      ],
+      "graphics": [],
+      "transition_in": "Fade from black, 8 frames",
+      "storyboard_frame": 1,
+      "storyboard_caption": "Cold open: quiz lights flash, quizmaster points",
+      "audio": "Room sound or music only",
+      "id": "08-01",
+      "start": 0.0
+    },
+    {
+      "type": "title_card",
+      "duration": 2.0,
+      "framing": "Full-screen shared title card",
+      "on_camera": "Graphic",
+      "camera": "Graphic animation only",
+      "lines": [],
+      "graphics": [
+        {
+          "kind": "title_card",
+          "in": 0,
+          "out": 2.0,
+          "anim": "Red band sweeps up at -9° (10 frames), shield scales 0.9→1.0, text tracks in from right 30 px"
+        }
+      ],
+      "transition_in": "Hard cut on a music hit",
+      "storyboard_frame": null,
+      "storyboard_caption": "Shared title card (from the graphics kit)",
+      "audio": "Music sting",
+      "id": "08-02",
+      "start": 4.0
+    },
+    {
+      "type": "category_card",
+      "duration": 2.5,
+      "framing": "Full-screen category card",
+      "on_camera": "Graphic",
+      "camera": "Graphic animation only",
+      "lines": [],
+      "graphics": [
+        {
+          "kind": "category_card",
+          "video_no": "08",
+          "title": "BIBLE QUIZZING",
+          "subtitle": "ALL DIVISIONS",
+          "in": 0,
+          "out": 2.5,
+          "anim": "Black band wipes down at -9° (10 frames), title punches in 1.15→1.0 scale (8 frames), subtitle letter-spaces in, small logo fades in bottom right"
+        }
+      ],
+      "transition_in": "Red band wipe, 10 frames",
+      "storyboard_frame": 2,
+      "storyboard_caption": "Category card",
+      "audio": "Music continues",
+      "id": "08-03",
+      "start": 6.0
+    },
+    {
+      "type": "two_shot",
+      "duration": 8.49,
+      "framing": "Medium two-shot, P1 left, P2 right, shield logo soft on the wall behind",
+      "on_camera": "P1, P2",
+      "camera": "Locked off with a slow 3% push-in across the shot",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P1",
+          "text": "Twenty points. Thirty seconds. First light on gets the shot. Bible Quizzing is the fastest event at SoCal Classic.",
+          "start": 0.0,
+          "duration": 8.49
+        }
+      ],
+      "graphics": [
+        {
+          "kind": "name_bars",
+          "text": [
+            "[P1 NAME]",
+            "[P2 NAME]"
+          ],
+          "in": 0.5,
+          "out": 5.0,
+          "anim": "Red strip wipes in from left, then black bar unrolls right (8 frames); reverse to exit"
+        }
+      ],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 3,
+      "storyboard_caption": "Two-shot, name bars come up",
+      "section": "Opening",
+      "id": "08-04",
+      "start": 8.5
+    },
+    {
+      "type": "close_up",
+      "duration": 5.49,
+      "framing": "Medium close-up on P2, eyeline just off camera",
+      "on_camera": "P2",
+      "camera": "Locked off; hard cut in",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P2",
+          "text": "Welcome to the SoCal Classic Fine Arts explainers. This one's for quizzers.",
+          "start": 0.0,
+          "duration": 5.49
+        }
+      ],
+      "graphics": [],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 3,
+      "storyboard_caption": "Coverage for frame 3: Two-shot, name bars come up",
+      "section": "Opening",
+      "id": "08-05",
+      "start": 16.99
+    },
+    {
+      "type": "graphic",
+      "duration": 7.21,
+      "framing": "Full-screen Shield Classic graphic",
+      "on_camera": "P1, P2 voice-over",
+      "camera": "Graphic animation only",
+      "voice": "Voice-over",
+      "lines": [
+        {
+          "speaker": "P1",
+          "text": "For 2027, Junior and Senior High study Mark, plus First, Second and Third John, and Jude.",
+          "start": 0.0,
+          "duration": 7.21
+        }
+      ],
+      "graphics": [
+        {
+          "kind": "info_card",
+          "title": "2027 MATERIAL",
+          "subtitle": "MARK · 1, 2, 3 JOHN · JUDE · KJV",
+          "in": 0,
+          "out": 7.21,
+          "anim": "Black band wipes down at -9° (10 frames), title slides up 40 px with ease-out (12 frames), subtitle fades in 6 frames later"
+        }
+      ],
+      "transition_in": "Red band wipe, 10 frames",
+      "storyboard_frame": 4,
+      "storyboard_caption": "Full-screen graphic",
+      "section": "This year's material",
+      "id": "08-06",
+      "start": 22.48
+    },
+    {
+      "type": "close_up",
+      "duration": 3.35,
+      "framing": "Medium close-up on P2, eyeline just off camera",
+      "on_camera": "P2",
+      "camera": "Locked off; hard cut in",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P2",
+          "text": "Elementary studies Mark. King James Version only.",
+          "start": 0.0,
+          "duration": 3.35
+        }
+      ],
+      "graphics": [],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 4,
+      "storyboard_caption": "Coverage for frame 4: Full-screen graphic",
+      "section": "This year's material",
+      "id": "08-07",
+      "start": 29.69
+    },
+    {
+      "type": "close_up",
+      "duration": 6.78,
+      "framing": "Medium close-up on P1, eyeline just off camera",
+      "on_camera": "P1",
+      "camera": "Locked off; hard cut in",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P1",
+          "text": "Each school brings one team per division. That's two to five quizzers, plus two subs.",
+          "start": 0.0,
+          "duration": 6.78
+        }
+      ],
+      "graphics": [
+        {
+          "kind": "rule_popup",
+          "text": "2–5 QUIZZERS + 2 SUBS",
+          "in": 0.3,
+          "out": 6.48,
+          "anim": "Slides in from right 60 px with 6-frame ease-out, small 1.05 scale pop, slides out at the end"
+        }
+      ],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 5,
+      "storyboard_caption": "P1 close-up",
+      "section": "Your team",
+      "id": "08-08",
+      "start": 33.04
+    },
+    {
+      "type": "close_up",
+      "duration": 8.06,
+      "framing": "Medium close-up on P2, eyeline just off camera",
+      "on_camera": "P2",
+      "camera": "Locked off; hard cut in",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P2",
+          "text": "Elementary is fourth through sixth grade. Junior High is seventh and eighth. Senior High is ninth through twelfth.",
+          "start": 0.0,
+          "duration": 8.06
+        }
+      ],
+      "graphics": [],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 5,
+      "storyboard_caption": "Coverage for frame 5: P1 close-up",
+      "section": "Your team",
+      "id": "08-09",
+      "start": 39.82
+    },
+    {
+      "type": "close_up",
+      "duration": 7.64,
+      "framing": "Medium close-up on P1, eyeline just off camera",
+      "on_camera": "P1",
+      "camera": "Locked off; hard cut in",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P1",
+          "text": "One official coach sits with the team. And if someone's missing when you're called, you still quiz.",
+          "start": 0.0,
+          "duration": 7.64
+        }
+      ],
+      "graphics": [],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 5,
+      "storyboard_caption": "Coverage for frame 5: P1 close-up",
+      "section": "Your team",
+      "id": "08-10",
+      "start": 47.88
+    },
+    {
+      "type": "close_up",
+      "duration": 4.21,
+      "framing": "Medium close-up on P2, eyeline just off camera",
+      "on_camera": "P2",
+      "camera": "Locked off; hard cut in",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P2",
+          "text": "Early rounds can have three teams in one match.",
+          "start": 0.0,
+          "duration": 4.21
+        }
+      ],
+      "graphics": [],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 5,
+      "storyboard_caption": "Coverage for frame 5: P1 close-up",
+      "section": "How a game works",
+      "id": "08-11",
+      "start": 55.52
+    },
+    {
+      "type": "close_up",
+      "duration": 9.78,
+      "framing": "Medium close-up on P1, eyeline just off camera",
+      "on_camera": "P1",
+      "camera": "Locked off; hard cut in",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P1",
+          "text": "The Quizmaster reads a question. The first quizzer to light up answers. You get ten seconds to start, and thirty to finish.",
+          "start": 0.0,
+          "duration": 9.78
+        }
+      ],
+      "graphics": [],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 5,
+      "storyboard_caption": "Coverage for frame 5: P1 close-up",
+      "section": "How a game works",
+      "id": "08-12",
+      "start": 59.73
+    },
+    {
+      "type": "graphic",
+      "duration": 9.35,
+      "framing": "Full-screen Shield Classic graphic",
+      "on_camera": "P2, P1 voice-over",
+      "camera": "Graphic animation only",
+      "voice": "Voice-over",
+      "lines": [
+        {
+          "speaker": "P2",
+          "text": "A right answer is twenty points. Senior High games run to fifteen correct answers. Elementary and Junior High run to ten.",
+          "start": 0.0,
+          "duration": 9.35
+        }
+      ],
+      "graphics": [
+        {
+          "kind": "info_card",
+          "title": "HOW A GAME WORKS",
+          "subtitle": "+20 RIGHT · TOSS-UP · FREE QUESTION +10",
+          "in": 0,
+          "out": 9.35,
+          "anim": "Black band wipes down at -9° (10 frames), title slides up 40 px with ease-out (12 frames), subtitle fades in 6 frames later"
+        }
+      ],
+      "transition_in": "Red band wipe, 10 frames",
+      "storyboard_frame": 6,
+      "storyboard_caption": "Graphic: simple scoreboard",
+      "section": "How a game works",
+      "id": "08-13",
+      "start": 69.51
+    },
+    {
+      "type": "close_up",
+      "duration": 5.92,
+      "framing": "Medium close-up on P1, eyeline just off camera",
+      "on_camera": "P1",
+      "camera": "Locked off; hard cut in",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P1",
+          "text": "Miss it, and the question goes to the other teams as a toss-up.",
+          "start": 0.0,
+          "duration": 5.92
+        }
+      ],
+      "graphics": [],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 6,
+      "storyboard_caption": "Coverage for frame 6: Graphic: simple scoreboard",
+      "section": "How a game works",
+      "id": "08-14",
+      "start": 78.86
+    },
+    {
+      "type": "close_up",
+      "duration": 5.49,
+      "framing": "Medium close-up on P2, eyeline just off camera",
+      "on_camera": "P2",
+      "camera": "Locked off; hard cut in",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P2",
+          "text": "Miss that, and there's a free question worth ten, with no penalty.",
+          "start": 0.0,
+          "duration": 5.49
+        }
+      ],
+      "graphics": [],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 6,
+      "storyboard_caption": "Coverage for frame 6: Graphic: simple scoreboard",
+      "section": "How a game works",
+      "id": "08-15",
+      "start": 84.78
+    },
+    {
+      "type": "close_up",
+      "duration": 7.21,
+      "framing": "Medium close-up on P1, eyeline just off camera",
+      "on_camera": "P1",
+      "camera": "Locked off; hard cut in",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P1",
+          "text": "Get four right, or five in Senior High, and you quiz out. A sub comes in.",
+          "start": 0.0,
+          "duration": 7.21
+        }
+      ],
+      "graphics": [],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 6,
+      "storyboard_caption": "Coverage for frame 6: Graphic: simple scoreboard",
+      "section": "How a game works",
+      "id": "08-16",
+      "start": 90.27
+    },
+    {
+      "type": "close_up",
+      "duration": 5.49,
+      "framing": "Medium close-up on P2, eyeline just off camera",
+      "on_camera": "P2",
+      "camera": "Locked off; hard cut in",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P2",
+          "text": "Make four errors, or five in Senior High, and you're out too.",
+          "start": 0.0,
+          "duration": 5.49
+        }
+      ],
+      "graphics": [],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 6,
+      "storyboard_caption": "Coverage for frame 6: Graphic: simple scoreboard",
+      "section": "How a game works",
+      "id": "08-17",
+      "start": 97.48
+    },
+    {
+      "type": "close_up",
+      "duration": 6.35,
+      "framing": "Medium close-up on P1, eyeline just off camera",
+      "on_camera": "P1",
+      "camera": "Locked off; hard cut in",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P1",
+          "text": "Your team's first three errors are free. After that, every error costs ten points.",
+          "start": 0.0,
+          "duration": 6.35
+        }
+      ],
+      "graphics": [],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 6,
+      "storyboard_caption": "Coverage for frame 6: Graphic: simple scoreboard",
+      "section": "How a game works",
+      "id": "08-18",
+      "start": 102.97
+    },
+    {
+      "type": "close_up",
+      "duration": 7.21,
+      "framing": "Medium close-up on P2, eyeline just off camera",
+      "on_camera": "P2",
+      "camera": "Locked off; hard cut in",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P2",
+          "text": "On finish-the-verse questions, it's word for word. One word added, missing or swapped is an error.",
+          "start": 0.0,
+          "duration": 7.21
+        }
+      ],
+      "graphics": [
+        {
+          "kind": "rule_popup",
+          "text": "WORD FOR WORD",
+          "in": 0.3,
+          "out": 6.91,
+          "anim": "Slides in from right 60 px with 6-frame ease-out, small 1.05 scale pop, slides out at the end"
+        }
+      ],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 7,
+      "storyboard_caption": "P2 close-up",
+      "section": "Answering right",
+      "id": "08-19",
+      "start": 109.32
+    },
+    {
+      "type": "close_up",
+      "duration": 9.35,
+      "framing": "Medium close-up on P1, eyeline just off camera",
+      "on_camera": "P1",
+      "camera": "Locked off; hard cut in",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P1",
+          "text": "On reference questions, you can put it in your own words. Quoting the verse word for word there is an error.",
+          "start": 0.0,
+          "duration": 9.35
+        }
+      ],
+      "graphics": [],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 7,
+      "storyboard_caption": "Coverage for frame 7: P2 close-up",
+      "section": "Answering right",
+      "id": "08-20",
+      "start": 116.53
+    },
+    {
+      "type": "close_up",
+      "duration": 5.06,
+      "framing": "Medium close-up on P2, eyeline just off camera",
+      "on_camera": "P2",
+      "camera": "Locked off; hard cut in",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P2",
+          "text": "Captains get three challenges a game, or four in Senior High.",
+          "start": 0.0,
+          "duration": 5.06
+        }
+      ],
+      "graphics": [],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 7,
+      "storyboard_caption": "Coverage for frame 7: P2 close-up",
+      "section": "Answering right",
+      "id": "08-21",
+      "start": 125.88
+    },
+    {
+      "type": "two_shot",
+      "duration": 5.92,
+      "framing": "Medium two-shot, P1 left, P2 right, shield logo soft on the wall behind",
+      "on_camera": "P1, P2",
+      "camera": "Locked off with a slow 3% push-in across the shot",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P1",
+          "text": "Stand up and say, \"Excuse me, Mr. Quizmaster. I would like to challenge.\"",
+          "start": 0.0,
+          "duration": 5.92
+        }
+      ],
+      "graphics": [
+        {
+          "kind": "rule_popup",
+          "text": "3 CHALLENGES (4 SR HIGH)",
+          "in": 0.3,
+          "out": 5.62,
+          "anim": "Slides in from right 60 px with 6-frame ease-out, small 1.05 scale pop, slides out at the end"
+        }
+      ],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 8,
+      "storyboard_caption": "P1 stands up and acts out the challenge",
+      "section": "Answering right",
+      "id": "08-22",
+      "start": 130.94
+    },
+    {
+      "type": "close_up",
+      "duration": 5.49,
+      "framing": "Medium close-up on P2, eyeline just off camera",
+      "on_camera": "P2",
+      "camera": "Locked off; hard cut in",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P2",
+          "text": "It's double elimination. Every team has to lose twice to go home.",
+          "start": 0.0,
+          "duration": 5.49
+        }
+      ],
+      "graphics": [],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 8,
+      "storyboard_caption": "Coverage for frame 8: P1 stands up and acts out the challenge",
+      "section": "Answering right",
+      "id": "08-23",
+      "start": 136.86
+    },
+    {
+      "type": "close_up",
+      "duration": 3.35,
+      "framing": "Medium close-up on P1, eyeline just off camera",
+      "on_camera": "P1",
+      "camera": "Locked off; hard cut in",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P1",
+          "text": "And no video or recording during competition.",
+          "start": 0.0,
+          "duration": 3.35
+        }
+      ],
+      "graphics": [],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 8,
+      "storyboard_caption": "Coverage for frame 8: P1 stands up and acts out the challenge",
+      "section": "Answering right",
+      "id": "08-24",
+      "start": 142.35
+    },
+    {
+      "type": "two_shot",
+      "duration": 5.06,
+      "framing": "Medium two-shot, P1 left, P2 right, shield logo soft on the wall behind",
+      "on_camera": "P1, P2",
+      "camera": "Locked off with a slow 3% push-in across the shot",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P2",
+          "text": "\"Study to shew thyself approved unto God.\" Start studying Mark now.",
+          "start": 0.0,
+          "duration": 5.06
+        }
+      ],
+      "graphics": [],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 9,
+      "storyboard_caption": "Two-shot, P2 quotes Second Timothy two, fifteen",
+      "section": "Outro",
+      "id": "08-25",
+      "start": 145.7
+    },
+    {
+      "type": "end_card",
+      "duration": 10.27,
+      "framing": "Full-screen Shield Classic end card",
+      "on_camera": "Voice-over",
+      "camera": "Graphic animation only",
+      "voice": "Voice-over",
+      "lines": [
+        {
+          "speaker": "P1",
+          "text": "Questions? Email us. The address is on your screen.",
+          "start": 0.0,
+          "duration": 4.21
+        },
+        {
+          "speaker": "P2",
+          "text": "See you February twenty-fourth through the twenty-sixth at Pacific Baptist School!",
+          "start": 4.21,
+          "duration": 5.06
+        }
+      ],
+      "graphics": [
+        {
+          "kind": "end_card",
+          "in": 0,
+          "out": 10.27,
+          "anim": "Red band drops in at -9 degrees (10 frames), shield fades up, QUESTIONS? then email then dates stagger in 6 frames apart; hold, then fade to black over the last 15 frames"
+        }
+      ],
+      "transition_in": "Cross-dissolve 12 frames",
+      "storyboard_frame": 10,
+      "storyboard_caption": "Shared end card",
+      "section": "Outro",
+      "id": "08-26",
+      "start": 150.76
+    }
+  ]
+}

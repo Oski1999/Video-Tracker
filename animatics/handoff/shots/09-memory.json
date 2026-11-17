@@ -1,0 +1,560 @@
+{
+  "video": 9,
+  "slug": "09-memory",
+  "title": "Bible Memory",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "words_per_minute": 140,
+  "runtime_seconds": 127.3,
+  "runtime": "2:07",
+  "script_notes": [],
+  "script_graphic_directions": [
+    "Graphic: 2027 theme card, \"The Triune God.\"",
+    "Graphic: Round 1, 2, 3 cards."
+  ],
+  "shots": [
+    {
+      "type": "cold_open",
+      "duration": 4.0,
+      "framing": "B-roll: a line of students facing the Bible Memory Master. \"Time!\"",
+      "on_camera": "Memory Master (extra)",
+      "camera": "Slow pan along the line of students to the Memory Master",
+      "lines": [
+        {
+          "speaker": "EXTRA",
+          "text": "Time!",
+          "start": 2.4,
+          "duration": 1.2
+        }
+      ],
+      "graphics": [],
+      "transition_in": "Fade from black, 8 frames",
+      "storyboard_frame": 1,
+      "storyboard_caption": "Cold open: students in a line facing the Memory Master",
+      "audio": "Room sound or music only",
+      "id": "09-01",
+      "start": 0.0
+    },
+    {
+      "type": "title_card",
+      "duration": 2.0,
+      "framing": "Full-screen shared title card",
+      "on_camera": "Graphic",
+      "camera": "Graphic animation only",
+      "lines": [],
+      "graphics": [
+        {
+          "kind": "title_card",
+          "in": 0,
+          "out": 2.0,
+          "anim": "Red band sweeps up at -9° (10 frames), shield scales 0.9→1.0, text tracks in from right 30 px"
+        }
+      ],
+      "transition_in": "Hard cut on a music hit",
+      "storyboard_frame": null,
+      "storyboard_caption": "Shared title card (from the graphics kit)",
+      "audio": "Music sting",
+      "id": "09-02",
+      "start": 4.0
+    },
+    {
+      "type": "category_card",
+      "duration": 2.5,
+      "framing": "Full-screen category card",
+      "on_camera": "Graphic",
+      "camera": "Graphic animation only",
+      "lines": [],
+      "graphics": [
+        {
+          "kind": "category_card",
+          "video_no": "09",
+          "title": "BIBLE MEMORY",
+          "subtitle": "2027 THEME: THE TRIUNE GOD",
+          "in": 0,
+          "out": 2.5,
+          "anim": "Black band wipes down at -9° (10 frames), title punches in 1.15→1.0 scale (8 frames), subtitle letter-spaces in, small logo fades in bottom right"
+        }
+      ],
+      "transition_in": "Red band wipe, 10 frames",
+      "storyboard_frame": 2,
+      "storyboard_caption": "Category card",
+      "audio": "Music continues",
+      "id": "09-03",
+      "start": 6.0
+    },
+    {
+      "type": "two_shot",
+      "duration": 11.92,
+      "framing": "Medium two-shot, P1 left, P2 right, shield logo soft on the wall behind",
+      "on_camera": "P1, P2",
+      "camera": "Locked off with a slow 3% push-in across the shot",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P1",
+          "text": "\"Thy word have I hid in mine heart, that I might not sin against thee.\" Psalm one nineteen, verse eleven. Bible Memory is where you prove it.",
+          "start": 0.0,
+          "duration": 11.92
+        }
+      ],
+      "graphics": [
+        {
+          "kind": "name_bars",
+          "text": [
+            "[P1 NAME]",
+            "[P2 NAME]"
+          ],
+          "in": 0.5,
+          "out": 5.0,
+          "anim": "Red strip wipes in from left, then black bar unrolls right (8 frames); reverse to exit"
+        }
+      ],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 3,
+      "storyboard_caption": "Two-shot, P1 quotes Psalm one nineteen, eleven",
+      "section": "Opening",
+      "id": "09-04",
+      "start": 8.5
+    },
+    {
+      "type": "close_up",
+      "duration": 5.49,
+      "framing": "Medium close-up on P2, eyeline just off camera",
+      "on_camera": "P2",
+      "camera": "Locked off; hard cut in",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P2",
+          "text": "Welcome to the SoCal Classic Fine Arts explainers. This one's for memorizers.",
+          "start": 0.0,
+          "duration": 5.49
+        }
+      ],
+      "graphics": [],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 3,
+      "storyboard_caption": "Coverage for frame 3: Two-shot, P1 quotes Psalm one nineteen, eleven",
+      "section": "Opening",
+      "id": "09-05",
+      "start": 20.42
+    },
+    {
+      "type": "close_up",
+      "duration": 8.92,
+      "framing": "Medium close-up on P1, eyeline just off camera",
+      "on_camera": "P1",
+      "camera": "Locked off; hard cut in",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P1",
+          "text": "The 2027 theme is The Triune God. You'll be given the memory material, so get it early and start now.",
+          "start": 0.0,
+          "duration": 8.92
+        }
+      ],
+      "graphics": [],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 3,
+      "storyboard_caption": "Coverage for frame 3: Two-shot, P1 quotes Psalm one nineteen, eleven",
+      "section": "The basics",
+      "id": "09-06",
+      "start": 25.91
+    },
+    {
+      "type": "close_up",
+      "duration": 9.35,
+      "framing": "Medium close-up on P2, eyeline just off camera",
+      "on_camera": "P2",
+      "camera": "Locked off; hard cut in",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P2",
+          "text": "Each school can enter two students per grade in Elementary. Junior and Senior High get four each. King James Version only.",
+          "start": 0.0,
+          "duration": 9.35
+        }
+      ],
+      "graphics": [
+        {
+          "kind": "rule_popup",
+          "text": "KJV ONLY",
+          "in": 0.3,
+          "out": 9.049999999999999,
+          "anim": "Slides in from right 60 px with 6-frame ease-out, small 1.05 scale pop, slides out at the end"
+        }
+      ],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 4,
+      "storyboard_caption": "P2 close-up",
+      "section": "The basics",
+      "id": "09-07",
+      "start": 34.83
+    },
+    {
+      "type": "close_up",
+      "duration": 9.35,
+      "framing": "Medium close-up on P1, eyeline just off camera",
+      "on_camera": "P1",
+      "camera": "Locked off; hard cut in",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P1",
+          "text": "It runs like a spelling bee. You stand in one line facing the Bible Memory Master, who goes left to right.",
+          "start": 0.0,
+          "duration": 9.35
+        }
+      ],
+      "graphics": [],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 4,
+      "storyboard_caption": "Coverage for frame 4: P2 close-up",
+      "section": "The basics",
+      "id": "09-08",
+      "start": 44.18
+    },
+    {
+      "type": "graphic",
+      "duration": 5.06,
+      "framing": "Full-screen Shield Classic graphic",
+      "on_camera": "P2, P1 voice-over",
+      "camera": "Graphic animation only",
+      "voice": "Voice-over",
+      "lines": [
+        {
+          "speaker": "P2",
+          "text": "Round one. The Master gives a reference. You quote the verse.",
+          "start": 0.0,
+          "duration": 5.06
+        }
+      ],
+      "graphics": [
+        {
+          "kind": "info_card",
+          "title": "THREE ROUNDS",
+          "subtitle": "REF → VERSE · VERSE → REF · APPLICATION → BOTH",
+          "in": 0,
+          "out": 5.06,
+          "anim": "Black band wipes down at -9° (10 frames), title slides up 40 px with ease-out (12 frames), subtitle fades in 6 frames later"
+        }
+      ],
+      "transition_in": "Red band wipe, 10 frames",
+      "storyboard_frame": 5,
+      "storyboard_caption": "Graphic: round cards",
+      "section": "The three rounds",
+      "id": "09-09",
+      "start": 53.53
+    },
+    {
+      "type": "close_up",
+      "duration": 5.06,
+      "framing": "Medium close-up on P1, eyeline just off camera",
+      "on_camera": "P1",
+      "camera": "Locked off; hard cut in",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P1",
+          "text": "Round two. The Master quotes the verse. You give the reference.",
+          "start": 0.0,
+          "duration": 5.06
+        }
+      ],
+      "graphics": [],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 5,
+      "storyboard_caption": "Coverage for frame 5: Graphic: round cards",
+      "section": "The three rounds",
+      "id": "09-10",
+      "start": 58.59
+    },
+    {
+      "type": "close_up",
+      "duration": 6.35,
+      "framing": "Medium close-up on P2, eyeline just off camera",
+      "on_camera": "P2",
+      "camera": "Locked off; hard cut in",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P2",
+          "text": "Round three. The Master gives an application. You give the reference and the verse.",
+          "start": 0.0,
+          "duration": 6.35
+        }
+      ],
+      "graphics": [],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 5,
+      "storyboard_caption": "Coverage for frame 5: Graphic: round cards",
+      "section": "The three rounds",
+      "id": "09-11",
+      "start": 63.65
+    },
+    {
+      "type": "broll",
+      "duration": 8.92,
+      "framing": "B-roll: stopwatch",
+      "on_camera": "P1 voice-over",
+      "camera": "Stopwatch hand sweeps; ring pulses red at each tick",
+      "voice": "Voice-over",
+      "lines": [
+        {
+          "speaker": "P1",
+          "text": "The clock starts when the Master says, \"Time!\" You get ten seconds for a reference, and thirty-five for a verse.",
+          "start": 0.0,
+          "duration": 8.92
+        }
+      ],
+      "graphics": [
+        {
+          "kind": "rule_popup",
+          "text": "10 S REF · 35 S VERSE",
+          "in": 0.3,
+          "out": 8.62,
+          "anim": "Slides in from right 60 px with 6-frame ease-out, small 1.05 scale pop, slides out at the end"
+        }
+      ],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 6,
+      "storyboard_caption": "Graphic: stopwatch",
+      "section": "The clock and the rules",
+      "id": "09-12",
+      "start": 70.0
+    },
+    {
+      "type": "close_up",
+      "duration": 9.35,
+      "framing": "Medium close-up on P2, eyeline just off camera",
+      "on_camera": "P2",
+      "camera": "Locked off; hard cut in",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P2",
+          "text": "Wait until the question's finished. Need to hear it again? Say, \"Please repeat the question.\" You get that once per question.",
+          "start": 0.0,
+          "duration": 9.35
+        }
+      ],
+      "graphics": [
+        {
+          "kind": "rule_popup",
+          "text": "10 S REF · 35 S VERSE",
+          "in": 0.3,
+          "out": 9.049999999999999,
+          "anim": "Slides in from right 60 px with 6-frame ease-out, small 1.05 scale pop, slides out at the end"
+        }
+      ],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 6,
+      "storyboard_caption": "Coverage for frame 6: Graphic: stopwatch",
+      "section": "The clock and the rules",
+      "id": "09-13",
+      "start": 78.92
+    },
+    {
+      "type": "graphic",
+      "duration": 12.27,
+      "framing": "Full-screen Shield Classic checklist",
+      "on_camera": "P1, P2",
+      "camera": "Graphic animation only",
+      "voice": "Voice-over",
+      "lines": [
+        {
+          "speaker": "P1",
+          "text": "A wrong reference is an error. So is any change to the verse. A word added, left out or swapped.",
+          "start": 0.0,
+          "duration": 8.92
+        },
+        {
+          "speaker": "P2",
+          "text": "Mispronounce a word? That's not an error.",
+          "start": 8.92,
+          "duration": 3.35
+        }
+      ],
+      "graphics": [
+        {
+          "kind": "checklist",
+          "title": "ERRORS",
+          "items": [
+            "Wrong reference",
+            "Word added or left out",
+            "Word swapped",
+            "Two errors and you're out"
+          ],
+          "mode": "full",
+          "checked_at_start": [],
+          "build_at": {
+            "0": 0.3,
+            "1": 1.5,
+            "2": 2.7
+          },
+          "in": 0,
+          "out": 12.27,
+          "anim": "Header bar slides in from left; unchecked items sit at 40% opacity; each item gets a red check pop and goes to full opacity at its build_at time (seconds from shot start)"
+        }
+      ],
+      "transition_in": "Red band wipe, 10 frames",
+      "storyboard_frame": 7,
+      "storyboard_caption": "Checklist builds",
+      "section": "The clock and the rules",
+      "id": "09-14",
+      "start": 88.27
+    },
+    {
+      "type": "close_up",
+      "duration": 7.21,
+      "framing": "Medium close-up on P1, eyeline just off camera",
+      "on_camera": "P1",
+      "camera": "Locked off; hard cut in",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P1",
+          "text": "You can stop and start over. But you have to repeat exactly what you started with.",
+          "start": 0.0,
+          "duration": 7.21
+        }
+      ],
+      "graphics": [
+        {
+          "kind": "checklist",
+          "title": "ERRORS",
+          "items": [
+            "Wrong reference",
+            "Word added or left out",
+            "Word swapped",
+            "Two errors and you're out"
+          ],
+          "mode": "side_panel",
+          "checked_at_start": [
+            0,
+            1,
+            2
+          ],
+          "build_at": {},
+          "in": 0,
+          "out": 7.21,
+          "anim": "Compact panel on the right third of frame over the speaker shot; items already checked show ticked; new items tick at build_at"
+        }
+      ],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 7,
+      "storyboard_caption": "Coverage for frame 7: Checklist builds",
+      "section": "The clock and the rules",
+      "id": "09-15",
+      "start": 100.54
+    },
+    {
+      "type": "close_up",
+      "duration": 4.21,
+      "framing": "Medium close-up on P2, eyeline just off camera",
+      "on_camera": "P2",
+      "camera": "Locked off; hard cut in",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P2",
+          "text": "Two errors, and you're out. Last one standing wins.",
+          "start": 0.0,
+          "duration": 4.21
+        }
+      ],
+      "graphics": [
+        {
+          "kind": "checklist",
+          "title": "ERRORS",
+          "items": [
+            "Wrong reference",
+            "Word added or left out",
+            "Word swapped",
+            "Two errors and you're out"
+          ],
+          "mode": "side_panel",
+          "checked_at_start": [
+            0,
+            1,
+            2
+          ],
+          "build_at": {
+            "3": 0.3
+          },
+          "in": 0,
+          "out": 4.21,
+          "anim": "Compact panel on the right third of frame over the speaker shot; items already checked show ticked; new items tick at build_at"
+        }
+      ],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 7,
+      "storyboard_caption": "Coverage for frame 7: Checklist builds",
+      "section": "The clock and the rules",
+      "id": "09-16",
+      "start": 107.75
+    },
+    {
+      "type": "two_shot",
+      "duration": 5.06,
+      "framing": "Medium two-shot, P1 left, P2 right, shield logo soft on the wall behind",
+      "on_camera": "P1, P2",
+      "camera": "Locked off with a slow 3% push-in across the shot",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P1",
+          "text": "Learn it word for word. Know your references. Listen for \"Time!\"",
+          "start": 0.0,
+          "duration": 5.06
+        }
+      ],
+      "graphics": [],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 8,
+      "storyboard_caption": "Two-shot, quick back-and-forth",
+      "section": "Outro",
+      "id": "09-17",
+      "start": 111.96
+    },
+    {
+      "type": "end_card",
+      "duration": 10.27,
+      "framing": "Full-screen Shield Classic end card",
+      "on_camera": "Voice-over",
+      "camera": "Graphic animation only",
+      "voice": "Voice-over",
+      "lines": [
+        {
+          "speaker": "P2",
+          "text": "Questions? Email us. The address is on your screen.",
+          "start": 0.0,
+          "duration": 4.21
+        },
+        {
+          "speaker": "P1",
+          "text": "See you February twenty-fourth through the twenty-sixth at Pacific Baptist School!",
+          "start": 4.21,
+          "duration": 5.06
+        }
+      ],
+      "graphics": [
+        {
+          "kind": "end_card",
+          "in": 0,
+          "out": 10.27,
+          "anim": "Red band drops in at -9 degrees (10 frames), shield fades up, QUESTIONS? then email then dates stagger in 6 frames apart; hold, then fade to black over the last 15 frames"
+        }
+      ],
+      "transition_in": "Cross-dissolve 12 frames",
+      "storyboard_frame": 9,
+      "storyboard_caption": "Shared end card",
+      "section": "Outro",
+      "id": "09-18",
+      "start": 117.02
+    }
+  ]
+}

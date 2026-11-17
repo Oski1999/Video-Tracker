@@ -1,0 +1,292 @@
+<title>SoCal Classic Explainer Storyboards</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800&family=Caveat:wght@500;700&family=Inter:wght@400;500;600&display=swap">
+<style>
+/* Layout: a sketchbook of storyboard strips, one strip per video, frames flow left to right and wrap. */
+:root{
+  --paper:#F4F5F6; --sheet:#FFFFFF; --graphite:#383C43; --soft:#6A707A; --line:#D5D8DD;
+  --red:#D7263D; --redsoft:#F6D9DD;
+  --display:"Archivo", "Helvetica Neue", Arial, sans-serif;
+  --body:"Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --hand:"Caveat", "Bradley Hand", "Comic Sans MS", cursive;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#141619; --sheet:#1D2024; --graphite:#D3D6DB; --soft:#9AA0A9; --line:#33373D;
+  --red:#FF5C6E; --redsoft:#4A2128; color-scheme:dark }}
+:root[data-theme="dark"]{
+  --paper:#141619; --sheet:#1D2024; --graphite:#D3D6DB; --soft:#9AA0A9; --line:#33373D;
+  --red:#FF5C6E; --redsoft:#4A2128; color-scheme:dark }
+body{background:var(--paper);color:var(--graphite);font-family:var(--body);line-height:1.45}
+.wrap{max-width:1240px;margin:0 auto;padding-block:28px 64px;padding-left:max(16px, env(safe-area-inset-left, 0px));padding-right:max(16px, env(safe-area-inset-right, 0px));display:flex;flex-direction:column;gap:28px}
+header{display:flex;flex-direction:column;gap:10px}
+.eyebrow{font-family:var(--display);font-weight:700;font-size:12px;letter-spacing:.18em;color:var(--red)}
+h1{font-family:var(--display);font-weight:800;font-size:clamp(28px,5vw,44px);line-height:1.05;margin:0;text-wrap:balance}
+.lede{margin:0;max-width:66ch;color:var(--soft);font-size:15px}
+.legend{display:flex;flex-wrap:wrap;gap:8px 18px;font-size:13px;color:var(--soft)}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.sw{width:14px;height:10px;border:1.5px solid var(--graphite);border-radius:2px;display:inline-block}
+.sw.r{border-color:var(--red);background:repeating-linear-gradient(135deg,var(--red) 0 1.5px,transparent 1.5px 4px)}
+nav{display:flex;flex-wrap:wrap;gap:8px;position:sticky;top:env(safe-area-inset-top, 0px);z-index:5;background:var(--paper);padding-block:10px}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top, 0px);z-index:10;background:var(--paper)}
+nav a{font-family:var(--display);font-weight:600;font-size:13px;color:var(--graphite);text-decoration:none;border:1.5px solid var(--line);border-radius:999px;padding:5px 12px;background:var(--sheet);white-space:nowrap}
+nav a:hover,nav a:focus-visible{border-color:var(--red);color:var(--red);outline:none}
+section{display:flex;flex-direction:column;gap:14px;scroll-margin-top:72px}
+.vhead{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 14px;border-top:2px solid var(--graphite);padding-top:12px}
+.vnum{font-family:var(--display);font-weight:800;font-size:13px;letter-spacing:.14em;color:var(--red)}
+.vhead h2{font-family:var(--display);font-weight:800;font-size:24px;margin:0}
+.vhead .rt{font-size:13px;color:var(--soft);font-variant-numeric:tabular-nums}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:18px}
+.frame{display:flex;flex-direction:column;gap:6px;min-width:0}
+.pane{position:relative;background:var(--sheet);border:1.5px solid var(--graphite);border-radius:3px;aspect-ratio:16/9;max-width:100%;overflow:hidden}
+.pane svg{display:block;width:100%;height:100%}
+.no{position:absolute;left:6px;top:4px;font-family:var(--hand);font-weight:700;font-size:18px;color:var(--soft);line-height:1}
+.cap{font-family:var(--display);font-weight:600;font-size:13px;line-height:1.3}
+.who{display:inline-block;font-size:11px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--soft);margin-right:6px}
+.line{font-family:var(--hand);font-size:19px;line-height:1.15;color:var(--graphite)}
+.gfx{font-size:12px;color:var(--red);font-weight:500}
+footer{font-size:13px;color:var(--soft);border-top:1.5px solid var(--line);padding-top:14px;max-width:70ch}
+/* svg strokes */
+.g{fill:none;stroke:var(--graphite);stroke-width:1.3;stroke-linecap:round;stroke-linejoin:round}
+.gs{fill:none;stroke:var(--soft);stroke-width:.9;stroke-linecap:round;stroke-dasharray:3 2.5}
+.gf{fill:var(--graphite);stroke:none}
+.r{fill:none;stroke:var(--red);stroke-width:1.4;stroke-linecap:round;stroke-linejoin:round}
+.rh{fill:url(#hatch);stroke:var(--red);stroke-width:1.2}
+.rf{fill:var(--red);stroke:none}
+.tx{fill:var(--graphite);font-family:var(--hand);font-weight:700}
+.tr{fill:var(--red);font-family:var(--display);font-weight:800;letter-spacing:.04em}
+.tc{fill:var(--graphite);font-family:var(--display);font-weight:800;letter-spacing:.06em}
+.ts{fill:var(--graphite);font-family:var(--display);font-weight:600;letter-spacing:.12em}
+@media (prefers-reduced-motion: no-preference){ nav a{transition:border-color .15s,color .15s} }
+</style>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <filter id="pencil" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="2" seed="4"/>
+      <feDisplacementMap in="SourceGraphic" scale="1.8"/>
+    </filter>
+    <pattern id="hatch" width="4" height="4" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="4" style="stroke:var(--red);stroke-width:1.2"/>
+    </pattern>
+  </defs>
+</svg>
+
+<div class="wrap">
+  <header>
+    <div class="eyebrow">SOCAL CLASSIC 2027 · FINE ARTS EXPLAINERS</div>
+    <h1>Explainer Storyboards</h1>
+    <p class="lede">Pencil thumbnails for all 10 videos, matched to the polished scripts. Each frame shows the shot, who's on camera and the line it covers. Red marks where a Shield Classic graphic goes.</p>
+    <div class="legend">
+      <span><i class="sw"></i>Camera shot</span>
+      <span><i class="sw r"></i>Shield Classic graphic or pop-up</span>
+      <span><i class="sw" style="border-style:dashed"></i>Camera move</span>
+    </div>
+  </header>
+  <nav id="nav" aria-label="Videos"></nav>
+  <main id="boards" style="display:flex;flex-direction:column;gap:40px"></main>
+  <footer>Every video uses the same last two frames: the outro tag on a two-shot, then the shared end card. Film the end card once and reuse it. Frame numbers match the order of lines in the script doc.</footer>
+</div>
+
+<script>
+(function(){
+const esc=s=>String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+const T=(x,y,s,txt,cls="tx",anchor="start")=>`<text class="${cls}" x="${x}" y="${y}" font-size="${s}" text-anchor="${anchor}">${esc(txt)}</text>`;
+
+function person(x,y,s,label,lx){
+  let o=`<g class="g"><circle cx="${x}" cy="${y}" r="${7*s}"/>`+
+  `<path d="M${x-3*s} ${y+2*s} Q${x} ${y+4.5*s} ${x+3*s} ${y+2*s}"/>`+
+  `<path d="M${x-15*s} ${y+31*s} Q${x-14*s} ${y+11*s} ${x} ${y+10*s} Q${x+14*s} ${y+11*s} ${x+15*s} ${y+31*s}"/>`+
+  `<path d="M${x-15*s} ${y+31*s} L${x-16*s} 92 M${x+15*s} ${y+31*s} L${x+16*s} 92"/></g>`;
+  if(label) o+=T(lx!=null?lx:x+10*s,y-6*s,9,label);
+  return o;
+}
+function small(x,y,s){ // full little figure
+  return `<g class="g"><circle cx="${x}" cy="${y}" r="${5*s}"/><path d="M${x} ${y+5*s} L${x} ${y+22*s} M${x-8*s} ${y+12*s} L${x+8*s} ${y+12*s} M${x} ${y+22*s} L${x-6*s} ${y+34*s} M${x} ${y+22*s} L${x+6*s} ${y+34*s}"/></g>`;
+}
+function shield(cx,cy,w,cls="g"){
+  const h=w*1.12;
+  return `<path class="${cls}" d="M${cx-w/2} ${cy-h/2} L${cx+w/2} ${cy-h/2} L${cx+w/2} ${cy} Q${cx+w/2} ${cy+h*.38} ${cx} ${cy+h/2} Q${cx-w/2} ${cy+h*.38} ${cx-w/2} ${cy} Z"/>`;
+}
+function pop(t){
+  const fs=t.length>22?5.6:6.6, w=Math.min(118,t.length*fs*.66+10);
+  return `<g><rect class="rh" x="${152-w}" y="7" width="${w}" height="15" rx="1" style="fill:var(--sheet)"/><rect x="${152-w}" y="7" width="3" height="15" class="rf"/>`+T(152-w/2+1.5,17.2,fs,t,"tr","middle")+`</g>`;
+}
+function lower(two){
+  const bar=(x,label)=>`<rect class="rf" x="${x}" y="70" width="3" height="12"/><rect class="r" x="${x+3}" y="70" width="44" height="12" style="fill:var(--sheet)"/>`+T(x+25,78.5,5.6,label,"ts","middle");
+  return bar(8,"P1 NAME")+(two?bar(105,"P2 NAME"):"");
+}
+const props={
+  choir(){let o="";for(let r=0;r<3;r++){const n=7-r,y=34+r*17;for(let i=0;i<n;i++){const x=80+(i-(n-1)/2)*18;o+=`<g class="g"><circle cx="${x}" cy="${y}" r="4.2"/><path d="M${x-7} ${y+12} Q${x} ${y+3} ${x+7} ${y+12}"/><ellipse cx="${x}" cy="${y+1.6}" rx="1.2" ry="1.4"/></g>`}}
+    return o+T(20,20,13,"♪")+T(134,18,13,"♫");},
+  piano(){let o=`<rect class="g" x="8" y="52" width="144" height="30"/>`;for(let i=1;i<14;i++)o+=`<line class="g" x1="${8+i*10.3}" y1="52" x2="${8+i*10.3}" y2="82"/>`;
+    [1,2,4,5,6,8,9,11,12,13].forEach(i=>{o+=`<rect class="gf" x="${8+i*10.3-3}" y="52" width="6" height="17"/>`});
+    o+=`<path class="g" d="M48 50 q-6 -14 6 -18 q12 -2 16 8 l-2 10 M92 50 q-2 -12 10 -16 q12 0 14 10 l-4 8"/>`;
+    o+=`<rect class="gs" x="34" y="18" width="92" height="52"/><path class="gs" d="M10 6 L30 16 M150 6 L130 16 M10 86 L30 72 M150 86 L130 72"/>`+T(132,14,8,"push in");return o;},
+  sheet(){let o=`<g transform="rotate(-4 80 46)"><rect class="g" x="22" y="12" width="116" height="70"/>`;
+    [22,48].forEach(y=>{for(let k=0;k<5;k++)o+=`<line class="g" style="stroke-width:.7" x1="30" y1="${y+k*3.6}" x2="130" y2="${y+k*3.6}"/>`;[30,55,80,105,130].forEach(x=>o+=`<line class="g" style="stroke-width:.8" x1="${x}" y1="${y}" x2="${x}" y2="${y+14.4}"/>`)});
+    [1,2,3,4].forEach((n,i)=>o+=T(33+i*25,20,7,n));[5,6,7,8].forEach((n,i)=>o+=T(33+i*25,46,7,n));
+    o+=`</g><path class="g" d="M96 88 L140 40 L145 44 L101 90 Z M140 40 L146 34 L149 38 L145 44"/>`;return o;},
+  frame(){return `<line class="g" x1="0" y1="80" x2="160" y2="80"/><rect class="g" x="62" y="12" width="70" height="52"/><rect class="g" x="68" y="18" width="58" height="40"/><path class="g" d="M70 54 L86 34 L96 44 L106 30 L124 54"/><circle class="g" cx="114" cy="26" r="4"/>`+
+    `<g class="g"><circle cx="34" cy="34" r="6"/><path d="M38 40 Q46 48 44 62 L40 80 M44 50 L56 44 M44 62 L32 80"/></g>`;},
+  gallery(){let o="";[[14,8],[84,8],[14,49],[84,49]].forEach(([x,y],i)=>{o+=`<rect class="g" x="${x}" y="${y}" width="62" height="34"/>`;
+    if(i==0)o+=`<path class="g" d="M${x+8} ${y+26} q10 -20 20 -6 t20 -8"/>`;if(i==1)o+=`<path class="g" style="stroke-dasharray:2 2" d="M${x+10} ${y+24} q6 -16 20 -12 q16 4 20 14 q-10 8 -40 -2"/>`;
+    if(i==2)o+=`<path class="g" d="M${x+6} ${y+28} L${x+22} ${y+10} L${x+32} ${y+22} L${x+42} ${y+12} L${x+56} ${y+28}"/>`;if(i==3)o+=`<circle class="gf" cx="${x+31}" cy="${y+17}" r="9"/>`;
+    o+=T(x+3,y+32,6.5,["Drawing","Watercolor","Oil or acrylic","Mono"][i]);});return o;},
+  phonecam(){return `<rect class="g" x="16" y="56" width="20" height="34" rx="3"/><path class="g" d="M26 44 L26 52 M22 48 L26 53 L30 48"/>`+
+    `<rect class="g" x="58" y="26" width="66" height="42" rx="4"/><rect class="g" x="68" y="20" width="18" height="6"/><circle class="g" cx="91" cy="47" r="14"/><circle class="g" cx="91" cy="47" r="8"/><path class="g" d="M91 14 L91 4 M104 18 L110 10"/>`+T(112,12,10,"click!");},
+  judge(){return `<path class="g" d="M10 6 L10 14 M10 6 L18 6 M150 6 L150 14 M150 6 L142 6 M10 84 L10 76 M10 84 L18 84 M150 84 L150 76 M150 84 L142 84"/>`+person(96,30,1.15)+
+    `<rect class="g" x="20" y="62" width="122" height="30" style="fill:var(--sheet)"/><rect class="g" x="40" y="58" width="26" height="4"/>`+
+    `<path class="g" d="M22 16 H74 V34 H44 L38 40 L38 34 H22 Z"/>`+T(48,28,9,"You may begin.","tx","middle")+T(132,82,8,"freeze");},
+  pulpit(){let o=`<line class="g" x1="0" y1="56" x2="160" y2="56"/>`+person(80,30,.62)+`<path class="g" d="M66 40 L94 40 L90 66 L70 66 Z" style="fill:var(--sheet)"/><path class="g" d="M70 40 L80 36 L90 40"/>`;
+    for(let r=0;r<2;r++)for(let i=0;i<6;i++){const x=16+i*26+r*13,y=74+r*12;o+=`<path class="g" d="M${x-10} ${y+8} Q${x-10} ${y-4} ${x} ${y-4} Q${x+10} ${y-4} ${x+10} ${y+8}"/>`;}return o;},
+  kids(){let o=small(34,22,1.1)+`<rect class="g" x="46" y="20" width="40" height="28" style="fill:var(--sheet)"/><path class="g" d="M58 40 q8 -16 16 0 M66 24 L66 30"/><path class="g" d="M42 34 L48 28"/>`;
+    for(let i=0;i<5;i++){const x=92+i*14;o+=`<g class="g"><circle cx="${x}" cy="66" r="4.5"/><path d="M${x-7} ${x?80:80} Q${x} 70 ${x+7} 80"/></g>`}return o+`<line class="g" x1="84" y1="84" x2="160" y2="84"/>`;},
+  quiz(){let o=`<line class="g" x1="8" y1="78" x2="152" y2="78"/>`;[40,80,120].forEach((x,i)=>{o+=small(x,44,.82);
+    o+= i==1?`<circle class="rf" cx="${x}" cy="22" r="5"/><path class="r" d="M${x-10} 14 L${x-7} 17 M${x+10} 14 L${x+7} 17 M${x} 8 L${x} 12"/>`:`<circle class="g" cx="${x}" cy="22" r="5"/>`;});
+    return o+T(14,14,9,"\"Number three!\"");},
+  line(){let o=`<line class="g" x1="6" y1="82" x2="154" y2="82"/>`;for(let i=0;i<5;i++)o+=small(18+i*20,44,.85);o+=small(138,38,1.05);
+    return o+`<path class="g" d="M118 10 H152 V24 H136 L132 30 L130 24 H118 Z"/>`+T(135,20,9,"Time!","tx","middle")+`<path class="gs" d="M30 30 L110 30 M104 26 L110 30 L104 34"/>`;},
+  loaf(){return `<path class="g" d="M10 76 H150 M10 82 H150"/><path class="g" d="M46 74 L52 50 H108 L114 74 Z"/><path class="g" d="M52 52 Q54 32 80 32 Q106 32 108 52"/><path class="g" d="M72 40 q4 -4 8 0 t8 0"/>`+
+    `<path class="g" d="M62 26 q-4 -6 0 -10 q4 -4 0 -10 M80 24 q-4 -6 0 -10 q4 -4 0 -10 M98 26 q-4 -6 0 -10 q4 -4 0 -10"/>`+T(118,22,8,"overhead");},
+  cookies(){let o=`<ellipse class="g" cx="80" cy="54" rx="62" ry="26"/><ellipse class="g" cx="80" cy="54" rx="50" ry="19"/>`;
+    [[56,48],[78,44],[100,48],[64,62],[88,62],[110,58]].forEach(([x,y])=>{o+=`<circle class="g" cx="${x}" cy="${y}" r="8"/><circle class="gf" cx="${x-2}" cy="${y-1}" r="1"/><circle class="gf" cx="${x+3}" cy="${y+2}" r="1"/>`});return o;},
+  usb(){return `<rect class="g" x="40" y="14" width="70" height="44"/><path class="g" d="M30 70 L120 70 L110 58 L40 58 Z"/><rect class="g" x="126" y="52" width="24" height="10"/><rect class="g" x="118" y="54" width="8" height="6"/><path class="g" d="M146 46 L130 46 M134 42 L130 46 L134 50"/>`+T(48,34,9,"RAW file?")+T(48,48,9,"opens ✓");},
+  timer(){let o=`<circle class="g" cx="80" cy="50" r="28"/><rect class="g" x="75" y="14" width="10" height="7"/><path class="g" d="M80 50 L80 30 M80 50 L94 58"/>`;for(let i=0;i<12;i++){const a=i*Math.PI/6;o+=`<line class="g" x1="${80+Math.sin(a)*24}" y1="${50-Math.cos(a)*24}" x2="${80+Math.sin(a)*27}" y2="${50-Math.cos(a)*27}"/>`}return o;},
+  papers(){let o="";[-9,0,9].forEach((r,i)=>{o+=`<g transform="rotate(${r} 80 52)"><rect class="g" x="56" y="16" width="48" height="64" style="fill:var(--sheet)"/>`;for(let k=0;k<6;k++)o+=`<line class="g" style="stroke-width:.8" x1="62" y1="${28+k*8}" x2="${98-(k%2)*8}" y2="${28+k*8}"/>`;o+=`</g>`});return o+T(18,50,18,"×3");},
+  signs(){let o=`<line class="g" x1="0" y1="62" x2="160" y2="62"/>`;[["3",36],["2",80],["1",124]].forEach(([n,x])=>{o+=`<rect class="g" x="${x-14}" y="14" width="28" height="22" style="fill:var(--sheet)"/><line class="g" x1="${x}" y1="36" x2="${x}" y2="50"/>`+T(x,32,18,n,"tx","middle")});
+    for(let i=0;i<5;i++){const x=22+i*30;o+=`<g class="g"><circle cx="${x}" cy="74" r="6"/><path d="M${x-11} 92 Q${x} 78 ${x+11} 92"/></g>`}return o;}
+};
+function card(t,sub){
+  const fs=Math.min(17,128/(t.length*.66));
+  return `<rect class="g" x="6" y="6" width="148" height="78"/><path class="rh" d="M6 66 L154 50 L154 84 L6 84 Z"/>`+T(16,22,5.6,"CATEGORY","ts")+T(16,22+fs+6,fs,t,"tc")+
+    (sub?T(16,22+fs+16,sub.length>34?4.4:5.2,sub,"ts"):"")+shield(140,22,14);
+}
+function list(t,items){
+  let o=`<rect class="g" x="6" y="6" width="148" height="78"/><rect class="rf" x="6" y="6" width="4" height="78"/>`+T(18,21,8,t,"tc");
+  items.forEach((it,i)=>{const y=34+i*12.5;o+=`<rect class="g" x="18" y="${y-6}" width="7" height="7"/><path class="r" d="M19 ${y-3} L21.5 ${y} L26 ${y-8}"/>`+T(31,y+.5,9.5,it)});return o;
+}
+function endcard(){return `<rect class="g" x="6" y="6" width="148" height="78"/><path class="rh" d="M6 6 H154 V20 L6 30 Z"/>`+shield(80,42,16)+T(80,64,8,"QUESTIONS?","tc","middle")+T(80,74,8.5,"SoCalClassicFA@gmail.com","tx","middle")+T(80,81.5,4.6,"FEB 24–26, 2027 · PACIFIC BAPTIST SCHOOL","ts","middle");}
+
+function draw(f){
+  let o="";
+  if(f.s==="two") o+=shield(80,20,13,"gs")+person(52,36,1.05,"P1",34)+person(108,36,1.05,"P2",118);
+  else if(f.s==="p1"||f.s==="p2") o+=person(78,34,1.9)+T(18,24,10,f.s.toUpperCase());
+  else if(f.s==="prop") o+=props[f.p]();
+  else if(f.s==="card") o+=card(f.t,f.sub);
+  else if(f.s==="list") o+=list(f.t,f.items);
+  else if(f.s==="end") o+=endcard();
+  if(f.lower) o+=lower(f.s==="two");
+  if(f.pop) o+=pop(f.pop);
+  return `<svg viewBox="0 0 160 90" role="img" aria-label="${esc(f.cap)}"><g filter="url(#pencil)">${o}</g></svg>`;
+}
+
+const TWO=(line,extra)=>Object.assign({s:"two",cap:"Two-shot, quick back-and-forth",who:"P1, P2",line},extra||{});
+const END={s:"end",cap:"Shared end card",who:"Voice-over",line:"\"Questions? Email us… See you February twenty-fourth…\"",gfx:"End card: email, dates, shield"};
+const V=[
+ {n:1,title:"Music: Vocal Ensembles & Choirs",rt:"2:40",f:[
+  {s:"prop",p:"choir",cap:"Cold open: choir lands its last chord",who:"B-roll",line:"(music only)"},
+  {s:"card",t:"MUSIC",sub:"VOCAL ENSEMBLES & CHOIRS",cap:"Category card",who:"Graphic",line:"(two seconds, over the music)",gfx:"Category card"},
+  TWO("\"You get three to five minutes on that stage.\"",{lower:true,cap:"Two-shot, name bars come up",gfx:"Lower thirds for P1 and P2"}),
+  {s:"card",t:"GROUP SIZES",sub:"2–6 SMALL · 7–12 LARGE · 13+ CHOIR",cap:"Full-screen graphic",who:"P1 voice-over",line:"\"First, how big is your group?\"",gfx:"Info card"},
+  {s:"p2",cap:"P2 close-up",who:"P2",line:"\"Your accompanist doesn't count.\""},
+  {s:"list",t:"WHAT TO SING",items:["3–5 minutes","Live piano, no tracks","No jazz or ragtime","Nothing from last year"],cap:"Checklist builds line by line",who:"P1, P2",line:"\"Pick one song or one medley…\"",gfx:"Checklist graphic"},
+  {s:"prop",p:"sheet",pop:"−1 PT PER JUDGE",cap:"B-roll: numbering measures in pencil",who:"P2, P1 voice-over",line:"\"Number every measure.\"",gfx:"Rule pop-up"},
+  {s:"p1",pop:"NOT MEMORIZED = NOT SCORED",cap:"P1 close-up",who:"P1",line:"\"Everything is memorized.\"",gfx:"Rule pop-up"},
+  TWO("\"So, memorize it.\" \"Number it.\" \"And time it.\""), END]},
+ {n:2,title:"Music: Piano",rt:"2:30",f:[
+  {s:"prop",p:"piano",cap:"Cold open: slow push-in on hands over the keys",who:"B-roll",line:"(piano only)"},
+  {s:"card",t:"MUSIC",sub:"PIANO",cap:"Category card",who:"Graphic",line:"(over the piano)",gfx:"Category card"},
+  TWO("\"Two to five minutes. One piano.\"",{lower:true,cap:"Two-shot, name bars come up",gfx:"Lower thirds"}),
+  {s:"card",t:"3 CATEGORIES",sub:"SACRED · CLASSICAL · DUET (NEW)",cap:"Full-screen graphic",who:"P1 voice-over",line:"\"There are three piano categories.\"",gfx:"Info card"},
+  {s:"list",t:"YOUR PIECE",items:["Sacred or classical style","No movie soundtracks","2–5 minutes","Not last year's piece"],cap:"Checklist builds",who:"P2, P1",line:"\"Your piece has to be sacred or classical.\"",gfx:"Checklist graphic"},
+  {s:"p1",pop:"AFTER 1950? GET APPROVAL",cap:"P1 close-up, leans in",who:"P1",line:"\"Here's a big one.\"",gfx:"Rule pop-up"},
+  {s:"prop",p:"papers",pop:"3 COPIES + 3 SHEETS",cap:"B-roll: copies and judging sheets fanned out",who:"P1, P2 voice-over",line:"\"Give the judges three copies of your music…\"",gfx:"Rule pop-up"},
+  TWO("\"Soloists, memorize your piece.\" \"Duet teams, you don't have to.\"",{pop:"SOLOS MEMORIZED",cap:"Two-shot",gfx:"Rule pop-up"}),
+  TWO("\"Pick the right piece.\" \"Number every measure.\" \"And memorize it.\""), END]},
+ {n:3,title:"Art",rt:"2:45",f:[
+  {s:"prop",p:"frame",cap:"Cold open: framed piece on the judging wall, judge leans in",who:"B-roll",line:"(no dialogue)"},
+  {s:"card",t:"ART",sub:"DRAWING · WATERCOLOR · OIL OR ACRYLIC · MONO",cap:"Category card",who:"Graphic",line:"(two seconds)",gfx:"Category card"},
+  TWO("\"Your art gets judged before you say a word.\"",{lower:true,cap:"Two-shot, name bars come up",gfx:"Lower thirds"}),
+  {s:"prop",p:"gallery",cap:"Graphic: four categories, one example each",who:"P1, P2 voice-over",line:"\"There are four.\"",gfx:"Four-up category graphic"},
+  {s:"p1",pop:"NO FULL WASH = DQ",cap:"P1 close-up",who:"P1",line:"\"But you have to wash water over the whole piece.\"",gfx:"Rule pop-up"},
+  {s:"list",t:"THE BIG RULES",items:["Your own original work","Flat, no layers","Totally dry","No movie stars or animation"],cap:"Checklist builds",who:"P2, P1",line:"\"It has to be your own original work…\"",gfx:"Checklist graphic"},
+  {s:"list",t:"YOUR CHECKLIST",items:["Mat or frame it (−3)","3x5 card on the back","3 judging sheets","Artist's Idea Statement"],cap:"Checklist builds",who:"P1, P2",line:"\"Mat it or frame it, or you lose three points.\"",gfx:"Checklist graphic"},
+  TWO("\"Original. Flat. Dry.\" \"Framed. Labeled.\""), END]},
+ {n:4,title:"Photography",rt:"2:25",f:[
+  {s:"prop",p:"phonecam",cap:"Cold open: phone drops out, real camera comes up",who:"B-roll",line:"(shutter click)"},
+  {s:"card",t:"PHOTOGRAPHY",sub:"JUNIOR & SENIOR HIGH",cap:"Category card",who:"Graphic",line:"(two seconds)",gfx:"Category card"},
+  TWO("\"Put the phone down. Seriously.\"",{lower:true,pop:"PHONE PHOTOS = DQ",cap:"Two-shot, name bars come up",gfx:"Lower thirds and pop-up"}),
+  {s:"card",t:"4 CATEGORIES",sub:"PORTRAIT · LANDSCAPE · STILL LIFE · ACTION",cap:"Full-screen graphic",who:"P1 voice-over",line:"\"There are four categories.\"",gfx:"Info card"},
+  {s:"list",t:"EDITING",items:["Color, crop, contrast, size","Nothing added or removed","No AI fill or sky swap","Write every edit down"],cap:"Checklist builds",who:"P2, P1",line:"\"You can edit color, cropping, contrast and size.\"",gfx:"Checklist graphic"},
+  {s:"p2",pop:"8 × 10 ONLY",cap:"P2 close-up",who:"P2",line:"\"Print it at eight by ten.\"",gfx:"Rule pop-up"},
+  {s:"list",t:"CHECK-IN",items:["Print in a plastic sleeve","3 judging sheets","3x5 card stapled on","RAW file on a USB"],cap:"Checklist builds",who:"P2, P1",line:"\"At check-in, bring your print in its sleeve…\"",gfx:"Checklist graphic"},
+  {s:"prop",p:"usb",pop:"TEST YOUR USB",cap:"Insert: USB goes into a second laptop",who:"P2 voice-over",line:"\"Test that USB on another computer first.\"",gfx:"Rule pop-up"},
+  TWO("\"Real camera. Honest edits.\" \"Eight by ten. Working USB.\""), END]},
+ {n:5,title:"Speech",rt:"2:50",f:[
+  {s:"prop",p:"judge",cap:"Cold open: judge looks up, then freeze frame",who:"Judge (extra)",line:"\"You may begin.\""},
+  {s:"card",t:"SPEECH",sub:"POETRY · RELIGIOUS READING · INTERPRETATION",cap:"Category card",who:"Graphic",line:"(over the freeze frame)",gfx:"Category card"},
+  TWO("\"In speech, the clock starts the second the judge says…\"",{lower:true,cap:"Two-shot, name bars come up",gfx:"Lower thirds"}),
+  {s:"card",t:"3 CATEGORIES",sub:"POETRY · RELIGIOUS READING · HUMOROUS OR DRAMATIC",cap:"Full-screen graphic",who:"P1, P2 voice-over",line:"\"Poetry is any poem.\"",gfx:"Info card"},
+  {s:"card",t:"TIME LIMITS",sub:"ELEM 1:30–5 · JR HIGH 3–8 · SR HIGH 4–10",cap:"Graphic: three timers",who:"P2, P1 voice-over",line:"\"Elementary, you get a minute and a half…\"",gfx:"Info card"},
+  {s:"p2",pop:"UNDER THE MINIMUM: −10",cap:"P2 close-up",who:"P2",line:"\"Come in under the minimum, and you lose ten points.\"",gfx:"Rule pop-up"},
+  {s:"prop",p:"papers",pop:"3 TYPED COPIES",cap:"B-roll: typed copies handed to judges",who:"P2, P1 voice-over",line:"\"Hand the judges three typed copies…\"",gfx:"Rule pop-up"},
+  {s:"list",t:"ON THE DAY",items:["Say title and author","Intro + transitions: 1 min","One prop only","Pick something new"],cap:"Checklist builds",who:"P1, P2",line:"\"Start with the title and the author.\"",gfx:"Checklist graphic"},
+  TWO("\"Pick it right. Memorize it. Watch the clock.\""), END]},
+ {n:6,title:"Bible Preaching",rt:"2:15",f:[
+  {s:"prop",p:"pulpit",cap:"Cold open: young man at the pulpit, wide from the back",who:"B-roll",line:"(room sound)"},
+  {s:"card",t:"BIBLE PREACHING",sub:"YOUNG MEN · JUNIOR & SENIOR HIGH",cap:"Category card",who:"Graphic",line:"(two seconds)",gfx:"Category card"},
+  TWO("\"Preach the word; be instant in season, out of season.\"",{lower:true,cap:"Two-shot, P1 quotes Second Timothy four, two",gfx:"Lower thirds"}),
+  {s:"card",t:"3 SERMON TYPES",sub:"EXPOSITORY · EVANGELISTIC · TOPICAL",cap:"Full-screen graphic",who:"P1, P2 voice-over",line:"\"Every preacher enters one category.\"",gfx:"Info card"},
+  {s:"prop",p:"signs",pop:"JR 6–8 · SR 8–10 MIN",cap:"Graphic: countdown cards 3, 2, 1",who:"P2, P1 voice-over",line:"\"You'll see a sign at three minutes left…\"",gfx:"Rule pop-up"},
+  {s:"list",t:"YOUR OUTLINE",items:["3 typed copies","Title, theme, Scripture","Full sentences","Intro and conclusion"],cap:"Checklist builds",who:"P1, P2",line:"\"Hand the judges three typed copies of your outline…\"",gfx:"Checklist graphic"},
+  {s:"p2",cap:"P2 close-up",who:"P2",line:"\"Read it. It's one of the best parts of the day.\""},
+  TWO("\"Pick your type. Write your outline. Watch the signs.\""), END]},
+ {n:7,title:"Bible Teaching",rt:"2:10",f:[
+  {s:"prop",p:"kids",cap:"Cold open: student teacher holds up a visual aid",who:"B-roll",line:"(room sound)"},
+  {s:"card",t:"BIBLE TEACHING",sub:"JUNIOR & SENIOR HIGH",cap:"Category card",who:"Graphic",line:"(two seconds)",gfx:"Category card"},
+  TWO("\"Picture a room full of fourth to sixth graders.\"",{lower:true,cap:"Two-shot, name bars come up",gfx:"Lower thirds"}),
+  {s:"card",t:"TIME LIMITS",sub:"TEACH GRADES 4–6 · JR 6–8 · SR 8–10 MIN",cap:"Full-screen graphic",who:"P1, P2 voice-over",line:"\"Junior High teaches six to eight minutes.\"",gfx:"Info card"},
+  {s:"p2",pop:"TIME'S UP = STOPPED",cap:"P2 close-up",who:"P2",line:"\"When time's up, you're stopped.\"",gfx:"Rule pop-up"},
+  {s:"p1",pop:"INTERACTION 10% MAX",cap:"P1 close-up",who:"P1",line:"\"Keep class interaction to ten percent…\"",gfx:"Rule pop-up"},
+  {s:"list",t:"YOUR OUTLINE",items:["Objectives, principles","Scripture references","Materials, summary","Bibliography"],cap:"Checklist builds",who:"P2, P1",line:"\"Your outline lists your objectives…\"",gfx:"Checklist graphic"},
+  {s:"p2",cap:"P2 close-up, quotes Second Timothy two, two",who:"P2",line:"\"commit thou to faithful men…\""},
+  TWO("\"Teach to the kids. Bring a visual. Bring your outline.\""), END]},
+ {n:8,title:"Bible Quizzing",rt:"2:45",f:[
+  {s:"prop",p:"quiz",cap:"Cold open: quiz lights flash, quizmaster points",who:"Quizmaster (extra)",line:"\"Number three!\""},
+  {s:"card",t:"BIBLE QUIZZING",sub:"ALL DIVISIONS",cap:"Category card",who:"Graphic",line:"(two seconds)",gfx:"Category card"},
+  TWO("\"Twenty points. Thirty seconds.\"",{lower:true,cap:"Two-shot, name bars come up",gfx:"Lower thirds"}),
+  {s:"card",t:"2027 MATERIAL",sub:"MARK · 1, 2, 3 JOHN · JUDE · KJV",cap:"Full-screen graphic",who:"P1, P2 voice-over",line:"\"For 2027, Junior and Senior High study Mark…\"",gfx:"Info card"},
+  {s:"p1",pop:"2–5 QUIZZERS + 2 SUBS",cap:"P1 close-up",who:"P1",line:"\"Each school brings one team per division.\"",gfx:"Rule pop-up"},
+  {s:"card",t:"HOW A GAME WORKS",sub:"+20 RIGHT · TOSS-UP · FREE QUESTION +10",cap:"Graphic: simple scoreboard",who:"P2, P1 voice-over",line:"\"A right answer is twenty points.\"",gfx:"Info card"},
+  {s:"p2",pop:"WORD FOR WORD",cap:"P2 close-up",who:"P2",line:"\"On finish-the-verse questions, it's word for word.\"",gfx:"Rule pop-up"},
+  TWO("\"Excuse me, Mr. Quizmaster. I would like to challenge.\"",{pop:"3 CHALLENGES (4 SR HIGH)",cap:"P1 stands up and acts out the challenge",gfx:"Rule pop-up"}),
+  TWO("\"Study to shew thyself approved unto God.\"",{cap:"Two-shot, P2 quotes Second Timothy two, fifteen"}), END]},
+ {n:9,title:"Bible Memory",rt:"2:10",f:[
+  {s:"prop",p:"line",cap:"Cold open: students in a line facing the Memory Master",who:"Memory Master (extra)",line:"\"Time!\""},
+  {s:"card",t:"BIBLE MEMORY",sub:"2027 THEME: THE TRIUNE GOD",cap:"Category card",who:"Graphic",line:"(two seconds)",gfx:"Category card"},
+  TWO("\"Thy word have I hid in mine heart…\"",{lower:true,cap:"Two-shot, P1 quotes Psalm one nineteen, eleven",gfx:"Lower thirds"}),
+  {s:"p2",pop:"KJV ONLY",cap:"P2 close-up",who:"P2",line:"\"Each school can enter two students per grade…\"",gfx:"Rule pop-up"},
+  {s:"card",t:"THREE ROUNDS",sub:"REF → VERSE · VERSE → REF · APPLICATION → BOTH",cap:"Graphic: round cards",who:"P2, P1 voice-over",line:"\"Round one. The Master gives a reference.\"",gfx:"Info card"},
+  {s:"prop",p:"timer",pop:"10 S REF · 35 S VERSE",cap:"Graphic: stopwatch",who:"P1 voice-over",line:"\"The clock starts when the Master says, Time!\"",gfx:"Rule pop-up"},
+  {s:"list",t:"ERRORS",items:["Wrong reference","Word added or left out","Word swapped","Two errors and you're out"],cap:"Checklist builds",who:"P1, P2",line:"\"A wrong reference is an error.\"",gfx:"Checklist graphic"},
+  TWO("\"Learn it word for word. Know your references.\""), END]},
+ {n:10,title:"Culinary Art",rt:"2:20",f:[
+  {s:"prop",p:"loaf",cap:"Cold open: overhead, banana loaf comes out of the oven",who:"B-roll",line:"(kitchen sound)"},
+  {s:"card",t:"CULINARY ART",sub:"COOKIES · SWEET QUICK BREADS",cap:"Category card",who:"Graphic",line:"(two seconds)",gfx:"Category card"},
+  TWO("\"This year, banana bread is a competition.\"",{lower:true,cap:"Two-shot, name bars come up",gfx:"Lower thirds"}),
+  {s:"prop",p:"cookies",pop:"8–12 · ONE RECIPE",cap:"Insert: cookies on a disposable plate",who:"P2, P1 voice-over",line:"\"Bring one batch.\"",gfx:"Rule pop-up"},
+  {s:"p2",pop:"BROWNIES = BAR COOKIES",cap:"P2 close-up",who:"P2",line:"\"And yes, brownies count as bar cookies.\"",gfx:"Rule pop-up"},
+  {s:"card",t:"SWEET QUICK BREADS",sub:"1 UNCUT LOAF OR 6 MUFFINS · NO YEAST",cap:"Full-screen graphic",who:"P1, P2 voice-over",line:"\"Quick breads are made without yeast.\"",gfx:"Info card"},
+  {s:"list",t:"EVERY ENTRY",items:["From scratch","Typed recipe, 8½ x 11","3 copies + 3 sheets","Right room, on time"],cap:"Checklist builds",who:"P2, P1",line:"\"Make everything from scratch, by yourself.\"",gfx:"Checklist graphic"},
+  {s:"p1",pop:"DISQUALIFIED IF…",cap:"P1 close-up",who:"P1",line:"\"So what gets you disqualified?\"",gfx:"Rule pop-up"},
+  TWO("\"From scratch. Right count. Three copies. On time.\""), END]}
+];
+
+const nav=document.getElementById("nav"), boards=document.getElementById("boards");
+nav.innerHTML=V.map(v=>`<a href="#v${v.n}">${v.n}. ${esc(v.title.replace("Music: ",""))}</a>`).join("");
+boards.innerHTML=V.map(v=>`<section id="v${v.n}"><div class="vhead"><span class="vnum">VIDEO ${v.n}</span><h2>${esc(v.title)}</h2><span class="rt">about ${v.rt} · ${v.f.length} frames</span></div>
+ <div class="grid">${v.f.map((f,i)=>`<figure class="frame" style="margin:0"><div class="pane">${draw(f)}<span class="no">${i+1}</span></div>
+  <figcaption style="display:flex;flex-direction:column;gap:3px"><div class="cap">${esc(f.cap)}</div><div><span class="who">${esc(f.who)}</span></div><div class="line">${esc(f.line)}</div>${f.gfx?`<div class="gfx">${esc(f.gfx)}</div>`:""}</figcaption></figure>`).join("")}</div></section>`).join("");
+})();
+</script>

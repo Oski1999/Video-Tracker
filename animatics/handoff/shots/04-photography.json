@@ -1,0 +1,744 @@
+{
+  "video": 4,
+  "slug": "04-photography",
+  "title": "Photography",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "words_per_minute": 140,
+  "runtime_seconds": 143.0,
+  "runtime": "2:23",
+  "script_notes": [],
+  "script_graphic_directions": [
+    "Graphic: four category tiles with sample shots.",
+    "Graphic: checklist builds."
+  ],
+  "shots": [
+    {
+      "type": "cold_open",
+      "duration": 4.0,
+      "framing": "B-roll: a phone lowers out of frame and a real camera comes up. Shutter click.",
+      "on_camera": "B-roll",
+      "camera": "Phone drops out of frame bottom; camera rises into frame; white flash on the shutter click",
+      "lines": [],
+      "graphics": [],
+      "transition_in": "Fade from black, 8 frames",
+      "storyboard_frame": 1,
+      "storyboard_caption": "Cold open: phone drops out, real camera comes up",
+      "audio": "Room sound or music only",
+      "id": "04-01",
+      "start": 0.0
+    },
+    {
+      "type": "title_card",
+      "duration": 2.0,
+      "framing": "Full-screen shared title card",
+      "on_camera": "Graphic",
+      "camera": "Graphic animation only",
+      "lines": [],
+      "graphics": [
+        {
+          "kind": "title_card",
+          "in": 0,
+          "out": 2.0,
+          "anim": "Red band sweeps up at -9° (10 frames), shield scales 0.9→1.0, text tracks in from right 30 px"
+        }
+      ],
+      "transition_in": "Hard cut on a music hit",
+      "storyboard_frame": null,
+      "storyboard_caption": "Shared title card (from the graphics kit)",
+      "audio": "Music sting",
+      "id": "04-02",
+      "start": 4.0
+    },
+    {
+      "type": "category_card",
+      "duration": 2.5,
+      "framing": "Full-screen category card",
+      "on_camera": "Graphic",
+      "camera": "Graphic animation only",
+      "lines": [],
+      "graphics": [
+        {
+          "kind": "category_card",
+          "video_no": "04",
+          "title": "PHOTOGRAPHY",
+          "subtitle": "JUNIOR & SENIOR HIGH",
+          "in": 0,
+          "out": 2.5,
+          "anim": "Black band wipes down at -9° (10 frames), title punches in 1.15→1.0 scale (8 frames), subtitle letter-spaces in, small logo fades in bottom right"
+        }
+      ],
+      "transition_in": "Red band wipe, 10 frames",
+      "storyboard_frame": 2,
+      "storyboard_caption": "Category card",
+      "audio": "Music continues",
+      "id": "04-03",
+      "start": 6.0
+    },
+    {
+      "type": "two_shot",
+      "duration": 5.92,
+      "framing": "Medium two-shot, P1 left, P2 right, shield logo soft on the wall behind",
+      "on_camera": "P1, P2",
+      "camera": "Locked off with a slow 3% push-in across the shot",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P1",
+          "text": "Put the phone down. Seriously. Phone photos are disqualified in SoCal Classic photography.",
+          "start": 0.0,
+          "duration": 5.92
+        }
+      ],
+      "graphics": [
+        {
+          "kind": "name_bars",
+          "text": [
+            "[P1 NAME]",
+            "[P2 NAME]"
+          ],
+          "in": 0.5,
+          "out": 5.0,
+          "anim": "Red strip wipes in from left, then black bar unrolls right (8 frames); reverse to exit"
+        },
+        {
+          "kind": "rule_popup",
+          "text": "PHONE PHOTOS = DQ",
+          "in": 0.3,
+          "out": 5.62,
+          "anim": "Slides in from right 60 px with 6-frame ease-out, small 1.05 scale pop, slides out at the end"
+        }
+      ],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 3,
+      "storyboard_caption": "Two-shot, name bars come up",
+      "section": "Opening",
+      "id": "04-04",
+      "start": 8.5
+    },
+    {
+      "type": "close_up",
+      "duration": 5.49,
+      "framing": "Medium close-up on P2, eyeline just off camera",
+      "on_camera": "P2",
+      "camera": "Locked off; hard cut in",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P2",
+          "text": "Welcome to the SoCal Classic Fine Arts explainers. This one's for photographers.",
+          "start": 0.0,
+          "duration": 5.49
+        }
+      ],
+      "graphics": [],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 3,
+      "storyboard_caption": "Coverage for frame 3: Two-shot, name bars come up",
+      "section": "Opening",
+      "id": "04-05",
+      "start": 14.42
+    },
+    {
+      "type": "graphic",
+      "duration": 5.06,
+      "framing": "Full-screen Shield Classic graphic",
+      "on_camera": "P1 voice-over",
+      "camera": "Graphic animation only",
+      "voice": "Voice-over",
+      "lines": [
+        {
+          "speaker": "P1",
+          "text": "There are four categories. Human Portrait, Landscape, Still Life and Action.",
+          "start": 0.0,
+          "duration": 5.06
+        }
+      ],
+      "graphics": [
+        {
+          "kind": "info_card",
+          "title": "4 CATEGORIES",
+          "subtitle": "PORTRAIT · LANDSCAPE · STILL LIFE · ACTION",
+          "in": 0,
+          "out": 5.06,
+          "anim": "Black band wipes down at -9° (10 frames), title slides up 40 px with ease-out (12 frames), subtitle fades in 6 frames later"
+        }
+      ],
+      "transition_in": "Red band wipe, 10 frames",
+      "storyboard_frame": 4,
+      "storyboard_caption": "Full-screen graphic",
+      "section": "The categories",
+      "id": "04-06",
+      "start": 19.91
+    },
+    {
+      "type": "close_up",
+      "duration": 6.78,
+      "framing": "Medium close-up on P2, eyeline just off camera",
+      "on_camera": "P2",
+      "camera": "Locked off; hard cut in",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P2",
+          "text": "Photography is for Junior and Senior High. Each school can enter two students per category.",
+          "start": 0.0,
+          "duration": 6.78
+        }
+      ],
+      "graphics": [],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 4,
+      "storyboard_caption": "Coverage for frame 4: Full-screen graphic",
+      "section": "The categories",
+      "id": "04-07",
+      "start": 24.97
+    },
+    {
+      "type": "close_up",
+      "duration": 5.49,
+      "framing": "Medium close-up on P1, eyeline just off camera",
+      "on_camera": "P1",
+      "camera": "Locked off; hard cut in",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P1",
+          "text": "You can enter one photo per category, in up to two categories.",
+          "start": 0.0,
+          "duration": 5.49
+        }
+      ],
+      "graphics": [],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 4,
+      "storyboard_caption": "Coverage for frame 4: Full-screen graphic",
+      "section": "The categories",
+      "id": "04-08",
+      "start": 31.75
+    },
+    {
+      "type": "close_up",
+      "duration": 5.49,
+      "framing": "Medium close-up on P2, eyeline just off camera",
+      "on_camera": "P2",
+      "camera": "Locked off; hard cut in",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P2",
+          "text": "And a photo you entered in a past year can't come back.",
+          "start": 0.0,
+          "duration": 5.49
+        }
+      ],
+      "graphics": [],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 4,
+      "storyboard_caption": "Coverage for frame 4: Full-screen graphic",
+      "section": "The categories",
+      "id": "04-09",
+      "start": 37.24
+    },
+    {
+      "type": "close_up",
+      "duration": 5.49,
+      "framing": "Medium close-up on P1, eyeline just off camera",
+      "on_camera": "P1",
+      "camera": "Locked off; hard cut in",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P1",
+          "text": "Shoot on a real camera. A DSLR, a mirrorless or a point-and-shoot.",
+          "start": 0.0,
+          "duration": 5.49
+        }
+      ],
+      "graphics": [],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 4,
+      "storyboard_caption": "Coverage for frame 4: Full-screen graphic",
+      "section": "The camera rules",
+      "id": "04-10",
+      "start": 42.73
+    },
+    {
+      "type": "graphic",
+      "duration": 10.56,
+      "framing": "Full-screen Shield Classic checklist",
+      "on_camera": "P2, P1",
+      "camera": "Graphic animation only",
+      "voice": "Voice-over",
+      "lines": [
+        {
+          "speaker": "P2",
+          "text": "You can edit color, cropping, contrast and size. That's it.",
+          "start": 0.0,
+          "duration": 4.64
+        },
+        {
+          "speaker": "P1",
+          "text": "You can't change what's in the picture. Nothing added, nothing removed, no distortion.",
+          "start": 4.64,
+          "duration": 5.92
+        }
+      ],
+      "graphics": [
+        {
+          "kind": "checklist",
+          "title": "EDITING",
+          "items": [
+            "Color, crop, contrast, size",
+            "Nothing added or removed",
+            "No AI fill or sky swap",
+            "Write every edit down"
+          ],
+          "mode": "full",
+          "checked_at_start": [],
+          "build_at": {
+            "0": 0.3,
+            "1": 4.94
+          },
+          "in": 0,
+          "out": 10.56,
+          "anim": "Header bar slides in from left; unchecked items sit at 40% opacity; each item gets a red check pop and goes to full opacity at its build_at time (seconds from shot start)"
+        }
+      ],
+      "transition_in": "Red band wipe, 10 frames",
+      "storyboard_frame": 5,
+      "storyboard_caption": "Checklist builds",
+      "section": "The camera rules",
+      "id": "04-11",
+      "start": 48.22
+    },
+    {
+      "type": "close_up",
+      "duration": 6.78,
+      "framing": "Medium close-up on P2, eyeline just off camera",
+      "on_camera": "P2",
+      "camera": "Locked off; hard cut in",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P2",
+          "text": "And no AI tools that change content. So no generative fill, and no sky replacement.",
+          "start": 0.0,
+          "duration": 6.78
+        }
+      ],
+      "graphics": [
+        {
+          "kind": "checklist",
+          "title": "EDITING",
+          "items": [
+            "Color, crop, contrast, size",
+            "Nothing added or removed",
+            "No AI fill or sky swap",
+            "Write every edit down"
+          ],
+          "mode": "side_panel",
+          "checked_at_start": [
+            0,
+            1
+          ],
+          "build_at": {
+            "2": 0.3
+          },
+          "in": 0,
+          "out": 6.78,
+          "anim": "Compact panel on the right third of frame over the speaker shot; items already checked show ticked; new items tick at build_at"
+        }
+      ],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 5,
+      "storyboard_caption": "Coverage for frame 5: Checklist builds",
+      "section": "The camera rules",
+      "id": "04-12",
+      "start": 58.78
+    },
+    {
+      "type": "close_up",
+      "duration": 4.21,
+      "framing": "Medium close-up on P1, eyeline just off camera",
+      "on_camera": "P1",
+      "camera": "Locked off; hard cut in",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P1",
+          "text": "Do every edit yourself, and write each one down.",
+          "start": 0.0,
+          "duration": 4.21
+        }
+      ],
+      "graphics": [
+        {
+          "kind": "checklist",
+          "title": "EDITING",
+          "items": [
+            "Color, crop, contrast, size",
+            "Nothing added or removed",
+            "No AI fill or sky swap",
+            "Write every edit down"
+          ],
+          "mode": "side_panel",
+          "checked_at_start": [
+            0,
+            1,
+            2
+          ],
+          "build_at": {
+            "3": 0.3
+          },
+          "in": 0,
+          "out": 4.21,
+          "anim": "Compact panel on the right third of frame over the speaker shot; items already checked show ticked; new items tick at build_at"
+        }
+      ],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 5,
+      "storyboard_caption": "Coverage for frame 5: Checklist builds",
+      "section": "The camera rules",
+      "id": "04-13",
+      "start": 65.56
+    },
+    {
+      "type": "close_up",
+      "duration": 5.92,
+      "framing": "Medium close-up on P2, eyeline just off camera",
+      "on_camera": "P2",
+      "camera": "Locked off; hard cut in",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P2",
+          "text": "List the program you used. List every color change, and by what percent.",
+          "start": 0.0,
+          "duration": 5.92
+        }
+      ],
+      "graphics": [],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 5,
+      "storyboard_caption": "Coverage for frame 5: Checklist builds",
+      "section": "The camera rules",
+      "id": "04-14",
+      "start": 69.77
+    },
+    {
+      "type": "close_up",
+      "duration": 7.21,
+      "framing": "Medium close-up on P1, eyeline just off camera",
+      "on_camera": "P1",
+      "camera": "Locked off; hard cut in",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P1",
+          "text": "Then write down what you cropped and why, and how much you lightened or darkened it.",
+          "start": 0.0,
+          "duration": 7.21
+        }
+      ],
+      "graphics": [],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 5,
+      "storyboard_caption": "Coverage for frame 5: Checklist builds",
+      "section": "The camera rules",
+      "id": "04-15",
+      "start": 75.69
+    },
+    {
+      "type": "close_up",
+      "duration": 8.49,
+      "framing": "Medium close-up on P2, eyeline just off camera",
+      "on_camera": "P2",
+      "camera": "Locked off; hard cut in",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P2",
+          "text": "Print it at eight by ten. Any other size is disqualified. Color or black and white are both fine.",
+          "start": 0.0,
+          "duration": 8.49
+        }
+      ],
+      "graphics": [
+        {
+          "kind": "rule_popup",
+          "text": "8 × 10 ONLY",
+          "in": 0.3,
+          "out": 8.19,
+          "anim": "Slides in from right 60 px with 6-frame ease-out, small 1.05 scale pop, slides out at the end"
+        }
+      ],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 6,
+      "storyboard_caption": "P2 close-up",
+      "section": "The print",
+      "id": "04-16",
+      "start": 82.9
+    },
+    {
+      "type": "close_up",
+      "duration": 3.78,
+      "framing": "Medium close-up on P1, eyeline just off camera",
+      "on_camera": "P1",
+      "camera": "Locked off; hard cut in",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P1",
+          "text": "Slide it into a plastic sleeve. No frames.",
+          "start": 0.0,
+          "duration": 3.78
+        }
+      ],
+      "graphics": [],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 6,
+      "storyboard_caption": "Coverage for frame 6: P2 close-up",
+      "section": "The print",
+      "id": "04-17",
+      "start": 91.39
+    },
+    {
+      "type": "graphic",
+      "duration": 12.27,
+      "framing": "Full-screen Shield Classic checklist",
+      "on_camera": "P2, P1",
+      "camera": "Graphic animation only",
+      "voice": "Voice-over",
+      "lines": [
+        {
+          "speaker": "P2",
+          "text": "At check-in, bring your print in its sleeve and three judging sheets.",
+          "start": 0.0,
+          "duration": 5.49
+        },
+        {
+          "speaker": "P1",
+          "text": "Staple a three-by-five card to the back of the sleeve. Name, school, grade and category.",
+          "start": 5.49,
+          "duration": 6.78
+        }
+      ],
+      "graphics": [
+        {
+          "kind": "checklist",
+          "title": "CHECK-IN",
+          "items": [
+            "Print in a plastic sleeve",
+            "3 judging sheets",
+            "3x5 card stapled on",
+            "RAW file on a USB"
+          ],
+          "mode": "full",
+          "checked_at_start": [],
+          "build_at": {
+            "0": 0.3,
+            "1": 1.5,
+            "2": 5.79
+          },
+          "in": 0,
+          "out": 12.27,
+          "anim": "Header bar slides in from left; unchecked items sit at 40% opacity; each item gets a red check pop and goes to full opacity at its build_at time (seconds from shot start)"
+        }
+      ],
+      "transition_in": "Red band wipe, 10 frames",
+      "storyboard_frame": 7,
+      "storyboard_caption": "Checklist builds",
+      "section": "Check-in checklist",
+      "id": "04-18",
+      "start": 95.17
+    },
+    {
+      "type": "close_up",
+      "duration": 7.64,
+      "framing": "Medium close-up on P2, eyeline just off camera",
+      "on_camera": "P2",
+      "camera": "Locked off; hard cut in",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P2",
+          "text": "Add an Artist's Idea Statement with each judging sheet. And your edit list, if you changed anything.",
+          "start": 0.0,
+          "duration": 7.64
+        }
+      ],
+      "graphics": [
+        {
+          "kind": "checklist",
+          "title": "CHECK-IN",
+          "items": [
+            "Print in a plastic sleeve",
+            "3 judging sheets",
+            "3x5 card stapled on",
+            "RAW file on a USB"
+          ],
+          "mode": "side_panel",
+          "checked_at_start": [
+            0,
+            1,
+            2
+          ],
+          "build_at": {},
+          "in": 0,
+          "out": 7.64,
+          "anim": "Compact panel on the right third of frame over the speaker shot; items already checked show ticked; new items tick at build_at"
+        }
+      ],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 7,
+      "storyboard_caption": "Coverage for frame 7: Checklist builds",
+      "section": "Check-in checklist",
+      "id": "04-19",
+      "start": 107.44
+    },
+    {
+      "type": "close_up",
+      "duration": 4.21,
+      "framing": "Medium close-up on P1, eyeline just off camera",
+      "on_camera": "P1",
+      "camera": "Locked off; hard cut in",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P1",
+          "text": "Last, bring a USB with your original RAW file.",
+          "start": 0.0,
+          "duration": 4.21
+        }
+      ],
+      "graphics": [
+        {
+          "kind": "checklist",
+          "title": "CHECK-IN",
+          "items": [
+            "Print in a plastic sleeve",
+            "3 judging sheets",
+            "3x5 card stapled on",
+            "RAW file on a USB"
+          ],
+          "mode": "side_panel",
+          "checked_at_start": [
+            0,
+            1,
+            2
+          ],
+          "build_at": {
+            "3": 0.3
+          },
+          "in": 0,
+          "out": 4.21,
+          "anim": "Compact panel on the right third of frame over the speaker shot; items already checked show ticked; new items tick at build_at"
+        }
+      ],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 7,
+      "storyboard_caption": "Coverage for frame 7: Checklist builds",
+      "section": "Check-in checklist",
+      "id": "04-20",
+      "start": 115.08
+    },
+    {
+      "type": "broll",
+      "duration": 8.92,
+      "framing": "B-roll: USB goes into a second laptop",
+      "on_camera": "P2 voice-over",
+      "camera": "Push-in to the USB going into the laptop",
+      "voice": "Voice-over",
+      "lines": [
+        {
+          "speaker": "P2",
+          "text": "Test that USB on another computer first. If it doesn't work, the judges can't check your photo, and it's disqualified.",
+          "start": 0.0,
+          "duration": 8.92
+        }
+      ],
+      "graphics": [
+        {
+          "kind": "rule_popup",
+          "text": "TEST YOUR USB",
+          "in": 0.3,
+          "out": 8.62,
+          "anim": "Slides in from right 60 px with 6-frame ease-out, small 1.05 scale pop, slides out at the end"
+        }
+      ],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 8,
+      "storyboard_caption": "Insert: USB goes into a second laptop",
+      "section": "Check-in checklist",
+      "id": "04-21",
+      "start": 119.29
+    },
+    {
+      "type": "two_shot",
+      "duration": 4.55,
+      "framing": "Medium two-shot, P1 left, P2 right, shield logo soft on the wall behind",
+      "on_camera": "P1, P2",
+      "camera": "Locked off with a slow 3% push-in across the shot",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P1",
+          "text": "Real camera. Honest edits.",
+          "start": 0.0,
+          "duration": 2.06
+        },
+        {
+          "speaker": "P2",
+          "text": "Eight by ten. Working USB.",
+          "start": 2.06,
+          "duration": 2.49
+        }
+      ],
+      "graphics": [],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 9,
+      "storyboard_caption": "Two-shot, quick back-and-forth",
+      "section": "Outro",
+      "id": "04-22",
+      "start": 128.21
+    },
+    {
+      "type": "end_card",
+      "duration": 10.27,
+      "framing": "Full-screen Shield Classic end card",
+      "on_camera": "Voice-over",
+      "camera": "Graphic animation only",
+      "voice": "Voice-over",
+      "lines": [
+        {
+          "speaker": "P1",
+          "text": "Questions? Email us. The address is on your screen.",
+          "start": 0.0,
+          "duration": 4.21
+        },
+        {
+          "speaker": "P2",
+          "text": "See you February twenty-fourth through the twenty-sixth at Pacific Baptist School!",
+          "start": 4.21,
+          "duration": 5.06
+        }
+      ],
+      "graphics": [
+        {
+          "kind": "end_card",
+          "in": 0,
+          "out": 10.27,
+          "anim": "Red band drops in at -9 degrees (10 frames), shield fades up, QUESTIONS? then email then dates stagger in 6 frames apart; hold, then fade to black over the last 15 frames"
+        }
+      ],
+      "transition_in": "Cross-dissolve 12 frames",
+      "storyboard_frame": 10,
+      "storyboard_caption": "Shared end card",
+      "section": "Outro",
+      "id": "04-23",
+      "start": 132.76
+    }
+  ]
+}

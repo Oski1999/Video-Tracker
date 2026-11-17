@@ -1,0 +1,97 @@
+{
+  "series": "SoCal Classic 2027 Fine Arts Explainers",
+  "event": "Feb 24–26, 2027 · Pacific Baptist School",
+  "max_runtime_seconds": 180,
+  "videos": [
+    {
+      "video": 1,
+      "slug": "01-vocal",
+      "title": "Music: Vocal Ensembles & Choirs",
+      "runtime_seconds": 158.2,
+      "cuts": 26,
+      "shot_list": "shots/01-vocal.json",
+      "script": "scripts/01-vocal.md"
+    },
+    {
+      "video": 2,
+      "slug": "02-piano",
+      "title": "Music: Piano",
+      "runtime_seconds": 150.8,
+      "cuts": 24,
+      "shot_list": "shots/02-piano.json",
+      "script": "scripts/02-piano.md"
+    },
+    {
+      "video": 3,
+      "slug": "03-art",
+      "title": "Art",
+      "runtime_seconds": 162.1,
+      "cuts": 23,
+      "shot_list": "shots/03-art.json",
+      "script": "scripts/03-art.md"
+    },
+    {
+      "video": 4,
+      "slug": "04-photography",
+      "title": "Photography",
+      "runtime_seconds": 143.0,
+      "cuts": 23,
+      "shot_list": "shots/04-photography.json",
+      "script": "scripts/04-photography.md"
+    },
+    {
+      "video": 5,
+      "slug": "05-speech",
+      "title": "Speech",
+      "runtime_seconds": 167.0,
+      "cuts": 26,
+      "shot_list": "shots/05-speech.json",
+      "script": "scripts/05-speech.md"
+    },
+    {
+      "video": 6,
+      "slug": "06-preaching",
+      "title": "Bible Preaching",
+      "runtime_seconds": 130.1,
+      "cuts": 22,
+      "shot_list": "shots/06-preaching.json",
+      "script": "scripts/06-preaching.md"
+    },
+    {
+      "video": 7,
+      "slug": "07-teaching",
+      "title": "Bible Teaching",
+      "runtime_seconds": 123.0,
+      "cuts": 18,
+      "shot_list": "shots/07-teaching.json",
+      "script": "scripts/07-teaching.md"
+    },
+    {
+      "video": 8,
+      "slug": "08-quizzing",
+      "title": "Bible Quizzing",
+      "runtime_seconds": 161.0,
+      "cuts": 26,
+      "shot_list": "shots/08-quizzing.json",
+      "script": "scripts/08-quizzing.md"
+    },
+    {
+      "video": 9,
+      "slug": "09-memory",
+      "title": "Bible Memory",
+      "runtime_seconds": 127.3,
+      "cuts": 18,
+      "shot_list": "shots/09-memory.json",
+      "script": "scripts/09-memory.md"
+    },
+    {
+      "video": 10,
+      "slug": "10-culinary",
+      "title": "Culinary Art",
+      "runtime_seconds": 136.3,
+      "cuts": 23,
+      "shot_list": "shots/10-culinary.json",
+      "script": "scripts/10-culinary.md"
+    }
+  ]
+}

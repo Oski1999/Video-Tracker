@@ -1,0 +1,717 @@
+{
+  "video": 10,
+  "slug": "10-culinary",
+  "title": "Culinary Art",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "words_per_minute": 140,
+  "runtime_seconds": 136.3,
+  "runtime": "2:16",
+  "script_notes": [],
+  "script_graphic_directions": [
+    "Graphic: Cookies card and Featured Dessert Challenge card.",
+    "Graphic: checklist builds. Show \"8½ x 11\" on screen."
+  ],
+  "shots": [
+    {
+      "type": "cold_open",
+      "duration": 4.0,
+      "framing": "B-roll: overhead shot of a banana loaf coming out of the oven.",
+      "on_camera": "B-roll",
+      "camera": "Overhead, loaf slides in from frame top; light steam drift",
+      "lines": [],
+      "graphics": [],
+      "transition_in": "Fade from black, 8 frames",
+      "storyboard_frame": 1,
+      "storyboard_caption": "Cold open: overhead, banana loaf comes out of the oven",
+      "audio": "Room sound or music only",
+      "id": "10-01",
+      "start": 0.0
+    },
+    {
+      "type": "title_card",
+      "duration": 2.0,
+      "framing": "Full-screen shared title card",
+      "on_camera": "Graphic",
+      "camera": "Graphic animation only",
+      "lines": [],
+      "graphics": [
+        {
+          "kind": "title_card",
+          "in": 0,
+          "out": 2.0,
+          "anim": "Red band sweeps up at -9° (10 frames), shield scales 0.9→1.0, text tracks in from right 30 px"
+        }
+      ],
+      "transition_in": "Hard cut on a music hit",
+      "storyboard_frame": null,
+      "storyboard_caption": "Shared title card (from the graphics kit)",
+      "audio": "Music sting",
+      "id": "10-02",
+      "start": 4.0
+    },
+    {
+      "type": "category_card",
+      "duration": 2.5,
+      "framing": "Full-screen category card",
+      "on_camera": "Graphic",
+      "camera": "Graphic animation only",
+      "lines": [],
+      "graphics": [
+        {
+          "kind": "category_card",
+          "video_no": "10",
+          "title": "CULINARY ART",
+          "subtitle": "COOKIES · SWEET QUICK BREADS",
+          "in": 0,
+          "out": 2.5,
+          "anim": "Black band wipes down at -9° (10 frames), title punches in 1.15→1.0 scale (8 frames), subtitle letter-spaces in, small logo fades in bottom right"
+        }
+      ],
+      "transition_in": "Red band wipe, 10 frames",
+      "storyboard_frame": 2,
+      "storyboard_caption": "Category card",
+      "audio": "Music continues",
+      "id": "10-03",
+      "start": 6.0
+    },
+    {
+      "type": "two_shot",
+      "duration": 4.64,
+      "framing": "Medium two-shot, P1 left, P2 right, shield logo soft on the wall behind",
+      "on_camera": "P1, P2",
+      "camera": "Locked off with a slow 3% push-in across the shot",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P1",
+          "text": "This year, banana bread is a competition. Let's talk culinary.",
+          "start": 0.0,
+          "duration": 4.64
+        }
+      ],
+      "graphics": [
+        {
+          "kind": "name_bars",
+          "text": [
+            "[P1 NAME]",
+            "[P2 NAME]"
+          ],
+          "in": 0.5,
+          "out": 4.64,
+          "anim": "Red strip wipes in from left, then black bar unrolls right (8 frames); reverse to exit"
+        }
+      ],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 3,
+      "storyboard_caption": "Two-shot, name bars come up",
+      "section": "Opening",
+      "id": "10-04",
+      "start": 8.5
+    },
+    {
+      "type": "close_up",
+      "duration": 5.49,
+      "framing": "Medium close-up on P2, eyeline just off camera",
+      "on_camera": "P2",
+      "camera": "Locked off; hard cut in",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P2",
+          "text": "Welcome to the SoCal Classic Fine Arts explainers. This one's for bakers.",
+          "start": 0.0,
+          "duration": 5.49
+        }
+      ],
+      "graphics": [],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 3,
+      "storyboard_caption": "Coverage for frame 3: Two-shot, name bars come up",
+      "section": "Opening",
+      "id": "10-05",
+      "start": 13.14
+    },
+    {
+      "type": "close_up",
+      "duration": 4.21,
+      "framing": "Medium close-up on P1, eyeline just off camera",
+      "on_camera": "P1",
+      "camera": "Locked off; hard cut in",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P1",
+          "text": "There are two. Cookies, and the Featured Dessert Challenge.",
+          "start": 0.0,
+          "duration": 4.21
+        }
+      ],
+      "graphics": [],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 3,
+      "storyboard_caption": "Coverage for frame 3: Two-shot, name bars come up",
+      "section": "The categories",
+      "id": "10-06",
+      "start": 18.63
+    },
+    {
+      "type": "close_up",
+      "duration": 3.78,
+      "framing": "Medium close-up on P2, eyeline just off camera",
+      "on_camera": "P2",
+      "camera": "Locked off; hard cut in",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P2",
+          "text": "For 2027, the challenge is Sweet Quick Breads.",
+          "start": 0.0,
+          "duration": 3.78
+        }
+      ],
+      "graphics": [],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 3,
+      "storyboard_caption": "Coverage for frame 3: Two-shot, name bars come up",
+      "section": "The categories",
+      "id": "10-07",
+      "start": 22.84
+    },
+    {
+      "type": "close_up",
+      "duration": 5.06,
+      "framing": "Medium close-up on P1, eyeline just off camera",
+      "on_camera": "P1",
+      "camera": "Locked off; hard cut in",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P1",
+          "text": "Each school can enter three students per division in each one.",
+          "start": 0.0,
+          "duration": 5.06
+        }
+      ],
+      "graphics": [],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 3,
+      "storyboard_caption": "Coverage for frame 3: Two-shot, name bars come up",
+      "section": "The categories",
+      "id": "10-08",
+      "start": 26.62
+    },
+    {
+      "type": "broll",
+      "duration": 5.49,
+      "framing": "B-roll: cookies on a disposable plate",
+      "on_camera": "P2, P1 voice-over",
+      "camera": "Overhead, slow 10° rotation of the plate",
+      "voice": "Voice-over",
+      "lines": [
+        {
+          "speaker": "P2",
+          "text": "Bring one batch. Eight to twelve cookies, all from the same recipe.",
+          "start": 0.0,
+          "duration": 5.49
+        }
+      ],
+      "graphics": [
+        {
+          "kind": "rule_popup",
+          "text": "8–12 · ONE RECIPE",
+          "in": 0.3,
+          "out": 5.19,
+          "anim": "Slides in from right 60 px with 6-frame ease-out, small 1.05 scale pop, slides out at the end"
+        }
+      ],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 4,
+      "storyboard_caption": "Insert: cookies on a disposable plate",
+      "section": "Cookies",
+      "id": "10-09",
+      "start": 31.68
+    },
+    {
+      "type": "close_up",
+      "duration": 5.49,
+      "framing": "Medium close-up on P1, eyeline just off camera",
+      "on_camera": "P1",
+      "camera": "Locked off; hard cut in",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P1",
+          "text": "Write the type of cookie on your recipe and your judging sheet.",
+          "start": 0.0,
+          "duration": 5.49
+        }
+      ],
+      "graphics": [
+        {
+          "kind": "rule_popup",
+          "text": "8–12 · ONE RECIPE",
+          "in": 0.3,
+          "out": 5.19,
+          "anim": "Slides in from right 60 px with 6-frame ease-out, small 1.05 scale pop, slides out at the end"
+        }
+      ],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 4,
+      "storyboard_caption": "Coverage for frame 4: Insert: cookies on a disposable plate",
+      "section": "Cookies",
+      "id": "10-10",
+      "start": 37.17
+    },
+    {
+      "type": "close_up",
+      "duration": 5.92,
+      "framing": "Medium close-up on P2, eyeline just off camera",
+      "on_camera": "P2",
+      "camera": "Locked off; hard cut in",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P2",
+          "text": "Individual cookies only. No bar cookies. And yes, brownies count as bar cookies.",
+          "start": 0.0,
+          "duration": 5.92
+        }
+      ],
+      "graphics": [
+        {
+          "kind": "rule_popup",
+          "text": "BROWNIES = BAR COOKIES",
+          "in": 0.3,
+          "out": 5.62,
+          "anim": "Slides in from right 60 px with 6-frame ease-out, small 1.05 scale pop, slides out at the end"
+        }
+      ],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 5,
+      "storyboard_caption": "P2 close-up",
+      "section": "Cookies",
+      "id": "10-11",
+      "start": 42.66
+    },
+    {
+      "type": "graphic",
+      "duration": 6.78,
+      "framing": "Full-screen Shield Classic graphic",
+      "on_camera": "P1, P2 voice-over",
+      "camera": "Graphic animation only",
+      "voice": "Voice-over",
+      "lines": [
+        {
+          "speaker": "P1",
+          "text": "Quick breads are made without yeast. Think banana bread, zucchini bread, pumpkin bread or muffins.",
+          "start": 0.0,
+          "duration": 6.78
+        }
+      ],
+      "graphics": [
+        {
+          "kind": "info_card",
+          "title": "SWEET QUICK BREADS",
+          "subtitle": "1 UNCUT LOAF OR 6 MUFFINS · NO YEAST",
+          "in": 0,
+          "out": 6.78,
+          "anim": "Black band wipes down at -9° (10 frames), title slides up 40 px with ease-out (12 frames), subtitle fades in 6 frames later"
+        }
+      ],
+      "transition_in": "Red band wipe, 10 frames",
+      "storyboard_frame": 6,
+      "storyboard_caption": "Full-screen graphic",
+      "section": "Sweet Quick Breads",
+      "id": "10-12",
+      "start": 48.58
+    },
+    {
+      "type": "close_up",
+      "duration": 5.06,
+      "framing": "Medium close-up on P2, eyeline just off camera",
+      "on_camera": "P2",
+      "camera": "Locked off; hard cut in",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P2",
+          "text": "Bring one standard loaf, whole and uncut. Or six standard muffins.",
+          "start": 0.0,
+          "duration": 5.06
+        }
+      ],
+      "graphics": [],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 6,
+      "storyboard_caption": "Coverage for frame 6: Full-screen graphic",
+      "section": "Sweet Quick Breads",
+      "id": "10-13",
+      "start": 55.36
+    },
+    {
+      "type": "close_up",
+      "duration": 9.35,
+      "framing": "Medium close-up on P1, eyeline just off camera",
+      "on_camera": "P1",
+      "camera": "Locked off; hard cut in",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P1",
+          "text": "Glazes and add-ins are fine, as long as it's still a quick bread. No cupcakes, no cakes and no yeast breads.",
+          "start": 0.0,
+          "duration": 9.35
+        }
+      ],
+      "graphics": [],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 6,
+      "storyboard_caption": "Coverage for frame 6: Full-screen graphic",
+      "section": "Sweet Quick Breads",
+      "id": "10-14",
+      "start": 60.42
+    },
+    {
+      "type": "graphic",
+      "duration": 9.27,
+      "framing": "Full-screen Shield Classic checklist",
+      "on_camera": "P2, P1",
+      "camera": "Graphic animation only",
+      "voice": "Voice-over",
+      "lines": [
+        {
+          "speaker": "P2",
+          "text": "Make everything from scratch, by yourself. No boxed mixes and no premade dough.",
+          "start": 0.0,
+          "duration": 5.92
+        },
+        {
+          "speaker": "P1",
+          "text": "Type your recipe on regular letter-size paper.",
+          "start": 5.92,
+          "duration": 3.35
+        }
+      ],
+      "graphics": [
+        {
+          "kind": "checklist",
+          "title": "EVERY ENTRY",
+          "items": [
+            "From scratch",
+            "Typed recipe, 8½ x 11",
+            "3 copies + 3 sheets",
+            "Right room, on time"
+          ],
+          "mode": "full",
+          "checked_at_start": [],
+          "build_at": {
+            "0": 0.3,
+            "1": 6.22
+          },
+          "in": 0,
+          "out": 9.27,
+          "anim": "Header bar slides in from left; unchecked items sit at 40% opacity; each item gets a red check pop and goes to full opacity at its build_at time (seconds from shot start)"
+        }
+      ],
+      "transition_in": "Red band wipe, 10 frames",
+      "storyboard_frame": 7,
+      "storyboard_caption": "Checklist builds",
+      "section": "Rules for every entry",
+      "id": "10-15",
+      "start": 69.77
+    },
+    {
+      "type": "close_up",
+      "duration": 9.78,
+      "framing": "Medium close-up on P2, eyeline just off camera",
+      "on_camera": "P2",
+      "camera": "Locked off; hard cut in",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P2",
+          "text": "In the top right corner, put the recipe name, your name, school, grade and category. Then list every ingredient and every step.",
+          "start": 0.0,
+          "duration": 9.78
+        }
+      ],
+      "graphics": [
+        {
+          "kind": "checklist",
+          "title": "EVERY ENTRY",
+          "items": [
+            "From scratch",
+            "Typed recipe, 8½ x 11",
+            "3 copies + 3 sheets",
+            "Right room, on time"
+          ],
+          "mode": "side_panel",
+          "checked_at_start": [
+            0,
+            1
+          ],
+          "build_at": {},
+          "in": 0,
+          "out": 9.78,
+          "anim": "Compact panel on the right third of frame over the speaker shot; items already checked show ticked; new items tick at build_at"
+        }
+      ],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 7,
+      "storyboard_caption": "Coverage for frame 7: Checklist builds",
+      "section": "Rules for every entry",
+      "id": "10-16",
+      "start": 79.04
+    },
+    {
+      "type": "close_up",
+      "duration": 7.21,
+      "framing": "Medium close-up on P1, eyeline just off camera",
+      "on_camera": "P1",
+      "camera": "Locked off; hard cut in",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P1",
+          "text": "Bring three copies of the recipe and three judging sheets. Attach a recipe to each sheet.",
+          "start": 0.0,
+          "duration": 7.21
+        }
+      ],
+      "graphics": [
+        {
+          "kind": "checklist",
+          "title": "EVERY ENTRY",
+          "items": [
+            "From scratch",
+            "Typed recipe, 8½ x 11",
+            "3 copies + 3 sheets",
+            "Right room, on time"
+          ],
+          "mode": "side_panel",
+          "checked_at_start": [
+            0,
+            1
+          ],
+          "build_at": {
+            "2": 0.3
+          },
+          "in": 0,
+          "out": 7.21,
+          "anim": "Compact panel on the right third of frame over the speaker shot; items already checked show ticked; new items tick at build_at"
+        }
+      ],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 7,
+      "storyboard_caption": "Coverage for frame 7: Checklist builds",
+      "section": "Rules for every entry",
+      "id": "10-17",
+      "start": 88.82
+    },
+    {
+      "type": "close_up",
+      "duration": 5.49,
+      "framing": "Medium close-up on P2, eyeline just off camera",
+      "on_camera": "P2",
+      "camera": "Locked off; hard cut in",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P2",
+          "text": "Serve it neatly on a disposable plate. And check your expiration dates.",
+          "start": 0.0,
+          "duration": 5.49
+        }
+      ],
+      "graphics": [
+        {
+          "kind": "checklist",
+          "title": "EVERY ENTRY",
+          "items": [
+            "From scratch",
+            "Typed recipe, 8½ x 11",
+            "3 copies + 3 sheets",
+            "Right room, on time"
+          ],
+          "mode": "side_panel",
+          "checked_at_start": [
+            0,
+            1,
+            2
+          ],
+          "build_at": {},
+          "in": 0,
+          "out": 5.49,
+          "anim": "Compact panel on the right third of frame over the speaker shot; items already checked show ticked; new items tick at build_at"
+        }
+      ],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 7,
+      "storyboard_caption": "Coverage for frame 7: Checklist builds",
+      "section": "Rules for every entry",
+      "id": "10-18",
+      "start": 96.03
+    },
+    {
+      "type": "close_up",
+      "duration": 5.06,
+      "framing": "Medium close-up on P1, eyeline just off camera",
+      "on_camera": "P1",
+      "camera": "Locked off; hard cut in",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P1",
+          "text": "Then get it to the right judging room before the deadline.",
+          "start": 0.0,
+          "duration": 5.06
+        }
+      ],
+      "graphics": [
+        {
+          "kind": "checklist",
+          "title": "EVERY ENTRY",
+          "items": [
+            "From scratch",
+            "Typed recipe, 8½ x 11",
+            "3 copies + 3 sheets",
+            "Right room, on time"
+          ],
+          "mode": "side_panel",
+          "checked_at_start": [
+            0,
+            1,
+            2
+          ],
+          "build_at": {
+            "3": 0.3
+          },
+          "in": 0,
+          "out": 5.06,
+          "anim": "Compact panel on the right third of frame over the speaker shot; items already checked show ticked; new items tick at build_at"
+        }
+      ],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 7,
+      "storyboard_caption": "Coverage for frame 7: Checklist builds",
+      "section": "Rules for every entry",
+      "id": "10-19",
+      "start": 101.52
+    },
+    {
+      "type": "close_up",
+      "duration": 3.35,
+      "framing": "Medium close-up on P2, eyeline just off camera",
+      "on_camera": "P2",
+      "camera": "Locked off; hard cut in",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P2",
+          "text": "Judges score flavor, baking, appearance and creativity.",
+          "start": 0.0,
+          "duration": 3.35
+        }
+      ],
+      "graphics": [],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 7,
+      "storyboard_caption": "Coverage for frame 7: Checklist builds",
+      "section": "Rules for every entry",
+      "id": "10-20",
+      "start": 106.58
+    },
+    {
+      "type": "close_up",
+      "duration": 12.35,
+      "framing": "Medium close-up on P1, eyeline just off camera",
+      "on_camera": "P1",
+      "camera": "Locked off; hard cut in",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P1",
+          "text": "So what gets you disqualified? Fewer than three copies. Showing up late, or in the wrong room. The wrong item or count. Or anything not made from scratch.",
+          "start": 0.0,
+          "duration": 12.35
+        }
+      ],
+      "graphics": [
+        {
+          "kind": "rule_popup",
+          "text": "DISQUALIFIED IF…",
+          "in": 0.3,
+          "out": 12.049999999999999,
+          "anim": "Slides in from right 60 px with 6-frame ease-out, small 1.05 scale pop, slides out at the end"
+        }
+      ],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 8,
+      "storyboard_caption": "P1 close-up",
+      "section": "Rules for every entry",
+      "id": "10-21",
+      "start": 109.93
+    },
+    {
+      "type": "two_shot",
+      "duration": 3.78,
+      "framing": "Medium two-shot, P1 left, P2 right, shield logo soft on the wall behind",
+      "on_camera": "P1, P2",
+      "camera": "Locked off with a slow 3% push-in across the shot",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P2",
+          "text": "From scratch. Right count. Three copies. On time.",
+          "start": 0.0,
+          "duration": 3.78
+        }
+      ],
+      "graphics": [],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 9,
+      "storyboard_caption": "Two-shot, quick back-and-forth",
+      "section": "Outro",
+      "id": "10-22",
+      "start": 122.28
+    },
+    {
+      "type": "end_card",
+      "duration": 10.27,
+      "framing": "Full-screen Shield Classic end card",
+      "on_camera": "Voice-over",
+      "camera": "Graphic animation only",
+      "voice": "Voice-over",
+      "lines": [
+        {
+          "speaker": "P1",
+          "text": "Questions? Email us. The address is on your screen.",
+          "start": 0.0,
+          "duration": 4.21
+        },
+        {
+          "speaker": "P2",
+          "text": "See you February twenty-fourth through the twenty-sixth at Pacific Baptist School!",
+          "start": 4.21,
+          "duration": 5.06
+        }
+      ],
+      "graphics": [
+        {
+          "kind": "end_card",
+          "in": 0,
+          "out": 10.27,
+          "anim": "Red band drops in at -9 degrees (10 frames), shield fades up, QUESTIONS? then email then dates stagger in 6 frames apart; hold, then fade to black over the last 15 frames"
+        }
+      ],
+      "transition_in": "Cross-dissolve 12 frames",
+      "storyboard_frame": 10,
+      "storyboard_caption": "Shared end card",
+      "section": "Outro",
+      "id": "10-23",
+      "start": 126.06
+    }
+  ]
+}

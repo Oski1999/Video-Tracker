@@ -1,0 +1,768 @@
+{
+  "video": 3,
+  "slug": "03-art",
+  "title": "Art",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "words_per_minute": 140,
+  "runtime_seconds": 162.1,
+  "runtime": "2:42",
+  "script_notes": [
+    "Production note: the staff meeting said one statement is enough. See Booklet issues, item 3."
+  ],
+  "script_graphic_directions": [
+    "Graphic: four categories with an example image each.",
+    "Graphic: checklist builds one line at a time."
+  ],
+  "shots": [
+    {
+      "type": "cold_open",
+      "duration": 4.0,
+      "framing": "B-roll: a framed piece hung on the judging wall, judge leaning in.",
+      "on_camera": "B-roll",
+      "camera": "Slow push-in toward the framed piece as the judge leans in",
+      "lines": [],
+      "graphics": [],
+      "transition_in": "Fade from black, 8 frames",
+      "storyboard_frame": 1,
+      "storyboard_caption": "Cold open: framed piece on the judging wall, judge leans in",
+      "audio": "Room sound or music only",
+      "id": "03-01",
+      "start": 0.0
+    },
+    {
+      "type": "title_card",
+      "duration": 2.0,
+      "framing": "Full-screen shared title card",
+      "on_camera": "Graphic",
+      "camera": "Graphic animation only",
+      "lines": [],
+      "graphics": [
+        {
+          "kind": "title_card",
+          "in": 0,
+          "out": 2.0,
+          "anim": "Red band sweeps up at -9° (10 frames), shield scales 0.9→1.0, text tracks in from right 30 px"
+        }
+      ],
+      "transition_in": "Hard cut on a music hit",
+      "storyboard_frame": null,
+      "storyboard_caption": "Shared title card (from the graphics kit)",
+      "audio": "Music sting",
+      "id": "03-02",
+      "start": 4.0
+    },
+    {
+      "type": "category_card",
+      "duration": 2.5,
+      "framing": "Full-screen category card",
+      "on_camera": "Graphic",
+      "camera": "Graphic animation only",
+      "lines": [],
+      "graphics": [
+        {
+          "kind": "category_card",
+          "video_no": "03",
+          "title": "ART",
+          "subtitle": "DRAWING · WATERCOLOR · OIL OR ACRYLIC · MONO",
+          "in": 0,
+          "out": 2.5,
+          "anim": "Black band wipes down at -9° (10 frames), title punches in 1.15→1.0 scale (8 frames), subtitle letter-spaces in, small logo fades in bottom right"
+        }
+      ],
+      "transition_in": "Red band wipe, 10 frames",
+      "storyboard_frame": 2,
+      "storyboard_caption": "Category card",
+      "audio": "Music continues",
+      "id": "03-03",
+      "start": 6.0
+    },
+    {
+      "type": "two_shot",
+      "duration": 8.92,
+      "framing": "Medium two-shot, P1 left, P2 right, shield logo soft on the wall behind",
+      "on_camera": "P1, P2",
+      "camera": "Locked off with a slow 3% push-in across the shot",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P1",
+          "text": "Your art gets judged before you say a word. So let's make sure it doesn't lose points before anyone looks.",
+          "start": 0.0,
+          "duration": 8.92
+        }
+      ],
+      "graphics": [
+        {
+          "kind": "name_bars",
+          "text": [
+            "[P1 NAME]",
+            "[P2 NAME]"
+          ],
+          "in": 0.5,
+          "out": 5.0,
+          "anim": "Red strip wipes in from left, then black bar unrolls right (8 frames); reverse to exit"
+        }
+      ],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 3,
+      "storyboard_caption": "Two-shot, name bars come up",
+      "section": "Opening",
+      "id": "03-04",
+      "start": 8.5
+    },
+    {
+      "type": "close_up",
+      "duration": 5.49,
+      "framing": "Medium close-up on P2, eyeline just off camera",
+      "on_camera": "P2",
+      "camera": "Locked off; hard cut in",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P2",
+          "text": "Welcome to the SoCal Classic Fine Arts explainers. This one's for artists.",
+          "start": 0.0,
+          "duration": 5.49
+        }
+      ],
+      "graphics": [],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 3,
+      "storyboard_caption": "Coverage for frame 3: Two-shot, name bars come up",
+      "section": "Opening",
+      "id": "03-05",
+      "start": 17.42
+    },
+    {
+      "type": "broll",
+      "duration": 8.41,
+      "framing": "B-roll: four categories, one example each",
+      "on_camera": "P1, P2 voice-over",
+      "camera": "Four tiles pop in one by one, 0.25 s apart, with a 6% scale-up",
+      "voice": "Voice-over",
+      "lines": [
+        {
+          "speaker": "P1",
+          "text": "There are four. Drawing, Watercolor, Oil or Acrylic, and Monochromatic Drawing.",
+          "start": 0.0,
+          "duration": 5.06
+        },
+        {
+          "speaker": "P2",
+          "text": "Monochromatic is Junior and Senior High only.",
+          "start": 5.06,
+          "duration": 3.35
+        }
+      ],
+      "graphics": [],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 4,
+      "storyboard_caption": "Graphic: four categories, one example each",
+      "section": "The categories",
+      "id": "03-06",
+      "start": 22.91
+    },
+    {
+      "type": "close_up",
+      "duration": 7.21,
+      "framing": "Medium close-up on P1, eyeline just off camera",
+      "on_camera": "P1",
+      "camera": "Locked off; hard cut in",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P1",
+          "text": "Each school can enter three students per category. And you can enter up to two pieces.",
+          "start": 0.0,
+          "duration": 7.21
+        }
+      ],
+      "graphics": [],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 4,
+      "storyboard_caption": "Coverage for frame 4: Graphic: four categories, one example each",
+      "section": "The categories",
+      "id": "03-07",
+      "start": 31.32
+    },
+    {
+      "type": "close_up",
+      "duration": 6.78,
+      "framing": "Medium close-up on P2, eyeline just off camera",
+      "on_camera": "P2",
+      "camera": "Locked off; hard cut in",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P2",
+          "text": "Drawing means charcoal, pencil or ink. Elementary can use one color or lots of colors.",
+          "start": 0.0,
+          "duration": 6.78
+        }
+      ],
+      "graphics": [],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 4,
+      "storyboard_caption": "Coverage for frame 4: Graphic: four categories, one example each",
+      "section": "The categories",
+      "id": "03-08",
+      "start": 38.53
+    },
+    {
+      "type": "close_up",
+      "duration": 7.64,
+      "framing": "Medium close-up on P1, eyeline just off camera",
+      "on_camera": "P1",
+      "camera": "Locked off; hard cut in",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P1",
+          "text": "Monochromatic means one color only. Think black on white, or white on black. Ink, pencil or charcoal.",
+          "start": 0.0,
+          "duration": 7.64
+        }
+      ],
+      "graphics": [],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 4,
+      "storyboard_caption": "Coverage for frame 4: Graphic: four categories, one example each",
+      "section": "The categories",
+      "id": "03-09",
+      "start": 45.31
+    },
+    {
+      "type": "close_up",
+      "duration": 4.64,
+      "framing": "Medium close-up on P2, eyeline just off camera",
+      "on_camera": "P2",
+      "camera": "Locked off; hard cut in",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P2",
+          "text": "Watercolor goes on real watercolor paper. Watercolor pencils are fine.",
+          "start": 0.0,
+          "duration": 4.64
+        }
+      ],
+      "graphics": [],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 4,
+      "storyboard_caption": "Coverage for frame 4: Graphic: four categories, one example each",
+      "section": "The categories",
+      "id": "03-10",
+      "start": 52.95
+    },
+    {
+      "type": "close_up",
+      "duration": 9.35,
+      "framing": "Medium close-up on P1, eyeline just off camera",
+      "on_camera": "P1",
+      "camera": "Locked off; hard cut in",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P1",
+          "text": "But you have to wash water over the whole piece. If you don't, it counts as a drawing, and it's disqualified.",
+          "start": 0.0,
+          "duration": 9.35
+        }
+      ],
+      "graphics": [
+        {
+          "kind": "rule_popup",
+          "text": "NO FULL WASH = DQ",
+          "in": 0.3,
+          "out": 9.049999999999999,
+          "anim": "Slides in from right 60 px with 6-frame ease-out, small 1.05 scale pop, slides out at the end"
+        }
+      ],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 5,
+      "storyboard_caption": "P1 close-up",
+      "section": "The categories",
+      "id": "03-11",
+      "start": 57.59
+    },
+    {
+      "type": "close_up",
+      "duration": 4.64,
+      "framing": "Medium close-up on P2, eyeline just off camera",
+      "on_camera": "P2",
+      "camera": "Locked off; hard cut in",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P2",
+          "text": "And in watercolor, no tempera, no airbrush and no ink.",
+          "start": 0.0,
+          "duration": 4.64
+        }
+      ],
+      "graphics": [],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 5,
+      "storyboard_caption": "Coverage for frame 5: P1 close-up",
+      "section": "The categories",
+      "id": "03-12",
+      "start": 66.94
+    },
+    {
+      "type": "close_up",
+      "duration": 7.64,
+      "framing": "Medium close-up on P1, eyeline just off camera",
+      "on_camera": "P1",
+      "camera": "Locked off; hard cut in",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P1",
+          "text": "Oil or acrylic goes on canvas, canvas board, bristol board or heavy paper. No airbrush there either.",
+          "start": 0.0,
+          "duration": 7.64
+        }
+      ],
+      "graphics": [],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 5,
+      "storyboard_caption": "Coverage for frame 5: P1 close-up",
+      "section": "The categories",
+      "id": "03-13",
+      "start": 71.58
+    },
+    {
+      "type": "graphic",
+      "duration": 12.7,
+      "framing": "Full-screen Shield Classic checklist",
+      "on_camera": "P2, P1",
+      "camera": "Graphic animation only",
+      "voice": "Voice-over",
+      "lines": [
+        {
+          "speaker": "P2",
+          "text": "It has to be your own original work, made since last year's competition.",
+          "start": 0.0,
+          "duration": 5.92
+        },
+        {
+          "speaker": "P1",
+          "text": "Getting advice is fine. Copying another artwork or photo in the same medium is not.",
+          "start": 5.92,
+          "duration": 6.78
+        }
+      ],
+      "graphics": [
+        {
+          "kind": "checklist",
+          "title": "THE BIG RULES",
+          "items": [
+            "Your own original work",
+            "Flat, no layers",
+            "Totally dry",
+            "No movie stars or animation"
+          ],
+          "mode": "full",
+          "checked_at_start": [],
+          "build_at": {
+            "0": 0.3
+          },
+          "in": 0,
+          "out": 12.7,
+          "anim": "Header bar slides in from left; unchecked items sit at 40% opacity; each item gets a red check pop and goes to full opacity at its build_at time (seconds from shot start)"
+        }
+      ],
+      "transition_in": "Red band wipe, 10 frames",
+      "storyboard_frame": 6,
+      "storyboard_caption": "Checklist builds",
+      "section": "The big rules",
+      "id": "03-14",
+      "start": 79.22
+    },
+    {
+      "type": "close_up",
+      "duration": 4.64,
+      "framing": "Medium close-up on P2, eyeline just off camera",
+      "on_camera": "P2",
+      "camera": "Locked off; hard cut in",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P2",
+          "text": "It has to be flat. No layers, no cut paper.",
+          "start": 0.0,
+          "duration": 4.64
+        }
+      ],
+      "graphics": [
+        {
+          "kind": "checklist",
+          "title": "THE BIG RULES",
+          "items": [
+            "Your own original work",
+            "Flat, no layers",
+            "Totally dry",
+            "No movie stars or animation"
+          ],
+          "mode": "side_panel",
+          "checked_at_start": [
+            0
+          ],
+          "build_at": {
+            "1": 0.3
+          },
+          "in": 0,
+          "out": 4.64,
+          "anim": "Compact panel on the right third of frame over the speaker shot; items already checked show ticked; new items tick at build_at"
+        }
+      ],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 6,
+      "storyboard_caption": "Coverage for frame 6: Checklist builds",
+      "section": "The big rules",
+      "id": "03-15",
+      "start": 91.92
+    },
+    {
+      "type": "close_up",
+      "duration": 5.06,
+      "framing": "Medium close-up on P1, eyeline just off camera",
+      "on_camera": "P1",
+      "camera": "Locked off; hard cut in",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P1",
+          "text": "And it has to be totally dry. Wet art is disqualified.",
+          "start": 0.0,
+          "duration": 5.06
+        }
+      ],
+      "graphics": [
+        {
+          "kind": "checklist",
+          "title": "THE BIG RULES",
+          "items": [
+            "Your own original work",
+            "Flat, no layers",
+            "Totally dry",
+            "No movie stars or animation"
+          ],
+          "mode": "side_panel",
+          "checked_at_start": [
+            0,
+            1
+          ],
+          "build_at": {
+            "2": 0.3
+          },
+          "in": 0,
+          "out": 5.06,
+          "anim": "Compact panel on the right third of frame over the speaker shot; items already checked show ticked; new items tick at build_at"
+        }
+      ],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 6,
+      "storyboard_caption": "Coverage for frame 6: Checklist builds",
+      "section": "The big rules",
+      "id": "03-16",
+      "start": 96.56
+    },
+    {
+      "type": "close_up",
+      "duration": 8.49,
+      "framing": "Medium close-up on P2, eyeline just off camera",
+      "on_camera": "P2",
+      "camera": "Locked off; hard cut in",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P2",
+          "text": "Your subject doesn't have to be sacred. But no movie stars, no animation, and nothing mystical, pagan or worldly.",
+          "start": 0.0,
+          "duration": 8.49
+        }
+      ],
+      "graphics": [
+        {
+          "kind": "checklist",
+          "title": "THE BIG RULES",
+          "items": [
+            "Your own original work",
+            "Flat, no layers",
+            "Totally dry",
+            "No movie stars or animation"
+          ],
+          "mode": "side_panel",
+          "checked_at_start": [
+            0,
+            1,
+            2
+          ],
+          "build_at": {
+            "3": 0.3
+          },
+          "in": 0,
+          "out": 8.49,
+          "anim": "Compact panel on the right third of frame over the speaker shot; items already checked show ticked; new items tick at build_at"
+        }
+      ],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 6,
+      "storyboard_caption": "Coverage for frame 6: Checklist builds",
+      "section": "The big rules",
+      "id": "03-17",
+      "start": 101.62
+    },
+    {
+      "type": "graphic",
+      "duration": 11.84,
+      "framing": "Full-screen Shield Classic checklist",
+      "on_camera": "P1, P2",
+      "camera": "Graphic animation only",
+      "voice": "Voice-over",
+      "lines": [
+        {
+          "speaker": "P1",
+          "text": "Mat it or frame it, or you lose three points. Keep the frame simple.",
+          "start": 0.0,
+          "duration": 6.35
+        },
+        {
+          "speaker": "P2",
+          "text": "A framed piece needs a hanger on the back, ready to hang.",
+          "start": 6.35,
+          "duration": 5.49
+        }
+      ],
+      "graphics": [
+        {
+          "kind": "checklist",
+          "title": "YOUR CHECKLIST",
+          "items": [
+            "Mat or frame it (−3)",
+            "3x5 card on the back",
+            "3 judging sheets",
+            "Artist's Idea Statement"
+          ],
+          "mode": "full",
+          "checked_at_start": [],
+          "build_at": {
+            "0": 0.3
+          },
+          "in": 0,
+          "out": 11.84,
+          "anim": "Header bar slides in from left; unchecked items sit at 40% opacity; each item gets a red check pop and goes to full opacity at its build_at time (seconds from shot start)"
+        }
+      ],
+      "transition_in": "Red band wipe, 10 frames",
+      "storyboard_frame": 7,
+      "storyboard_caption": "Checklist builds",
+      "section": "Your checklist",
+      "id": "03-18",
+      "start": 110.11
+    },
+    {
+      "type": "close_up",
+      "duration": 8.49,
+      "framing": "Medium close-up on P1, eyeline just off camera",
+      "on_camera": "P1",
+      "camera": "Locked off; hard cut in",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P1",
+          "text": "On the back, add a three-by-five card, face down. Put your full name, school, grade and category on it.",
+          "start": 0.0,
+          "duration": 8.49
+        }
+      ],
+      "graphics": [
+        {
+          "kind": "checklist",
+          "title": "YOUR CHECKLIST",
+          "items": [
+            "Mat or frame it (−3)",
+            "3x5 card on the back",
+            "3 judging sheets",
+            "Artist's Idea Statement"
+          ],
+          "mode": "side_panel",
+          "checked_at_start": [
+            0
+          ],
+          "build_at": {
+            "1": 0.3
+          },
+          "in": 0,
+          "out": 8.49,
+          "anim": "Compact panel on the right third of frame over the speaker shot; items already checked show ticked; new items tick at build_at"
+        }
+      ],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 7,
+      "storyboard_caption": "Coverage for frame 7: Checklist builds",
+      "section": "Your checklist",
+      "id": "03-19",
+      "start": 121.95
+    },
+    {
+      "type": "close_up",
+      "duration": 8.06,
+      "framing": "Medium close-up on P2, eyeline just off camera",
+      "on_camera": "P2",
+      "camera": "Locked off; hard cut in",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P2",
+          "text": "Then three judging sheets, stapled, in a plastic sleeve on the back. No judging sheets, and you're disqualified.",
+          "start": 0.0,
+          "duration": 8.06
+        }
+      ],
+      "graphics": [
+        {
+          "kind": "checklist",
+          "title": "YOUR CHECKLIST",
+          "items": [
+            "Mat or frame it (−3)",
+            "3x5 card on the back",
+            "3 judging sheets",
+            "Artist's Idea Statement"
+          ],
+          "mode": "side_panel",
+          "checked_at_start": [
+            0,
+            1
+          ],
+          "build_at": {
+            "2": 0.3
+          },
+          "in": 0,
+          "out": 8.06,
+          "anim": "Compact panel on the right third of frame over the speaker shot; items already checked show ticked; new items tick at build_at"
+        }
+      ],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 7,
+      "storyboard_caption": "Coverage for frame 7: Checklist builds",
+      "section": "Your checklist",
+      "id": "03-20",
+      "start": 130.44
+    },
+    {
+      "type": "close_up",
+      "duration": 9.78,
+      "framing": "Medium close-up on P1, eyeline just off camera",
+      "on_camera": "P1",
+      "camera": "Locked off; hard cut in",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P1",
+          "text": "Last, attach an Artist's Idea Statement to each judging sheet. Tell us where your idea came from and how you developed it.",
+          "start": 0.0,
+          "duration": 9.78
+        }
+      ],
+      "graphics": [
+        {
+          "kind": "checklist",
+          "title": "YOUR CHECKLIST",
+          "items": [
+            "Mat or frame it (−3)",
+            "3x5 card on the back",
+            "3 judging sheets",
+            "Artist's Idea Statement"
+          ],
+          "mode": "side_panel",
+          "checked_at_start": [
+            0,
+            1,
+            2
+          ],
+          "build_at": {
+            "3": 0.3
+          },
+          "in": 0,
+          "out": 9.78,
+          "anim": "Compact panel on the right third of frame over the speaker shot; items already checked show ticked; new items tick at build_at"
+        }
+      ],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 7,
+      "storyboard_caption": "Coverage for frame 7: Checklist builds",
+      "section": "Your checklist",
+      "id": "03-21",
+      "start": 138.5
+    },
+    {
+      "type": "two_shot",
+      "duration": 3.5,
+      "framing": "Medium two-shot, P1 left, P2 right, shield logo soft on the wall behind",
+      "on_camera": "P1, P2",
+      "camera": "Locked off with a slow 3% push-in across the shot",
+      "voice": "On camera",
+      "lines": [
+        {
+          "speaker": "P2",
+          "text": "Original. Flat. Dry.",
+          "start": 0.0,
+          "duration": 1.75
+        },
+        {
+          "speaker": "P1",
+          "text": "Framed. Labeled.",
+          "start": 1.75,
+          "duration": 1.75
+        }
+      ],
+      "graphics": [],
+      "transition_in": "Hard cut",
+      "storyboard_frame": 8,
+      "storyboard_caption": "Two-shot, quick back-and-forth",
+      "section": "Outro",
+      "id": "03-22",
+      "start": 148.28
+    },
+    {
+      "type": "end_card",
+      "duration": 10.27,
+      "framing": "Full-screen Shield Classic end card",
+      "on_camera": "Voice-over",
+      "camera": "Graphic animation only",
+      "voice": "Voice-over",
+      "lines": [
+        {
+          "speaker": "P2",
+          "text": "Questions? Email us. The address is on your screen.",
+          "start": 0.0,
+          "duration": 4.21
+        },
+        {
+          "speaker": "P1",
+          "text": "See you February twenty-fourth through the twenty-sixth at Pacific Baptist School!",
+          "start": 4.21,
+          "duration": 5.06
+        }
+      ],
+      "graphics": [
+        {
+          "kind": "end_card",
+          "in": 0,
+          "out": 10.27,
+          "anim": "Red band drops in at -9 degrees (10 frames), shield fades up, QUESTIONS? then email then dates stagger in 6 frames apart; hold, then fade to black over the last 15 frames"
+        }
+      ],
+      "transition_in": "Cross-dissolve 12 frames",
+      "storyboard_frame": 9,
+      "storyboard_caption": "Shared end card",
+      "section": "Outro",
+      "id": "03-23",
+      "start": 151.78
+    }
+  ]
+}
