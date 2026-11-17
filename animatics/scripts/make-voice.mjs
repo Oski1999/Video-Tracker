@@ -1,4 +1,5 @@
-// Optional temp voice: one espeak-ng clip per line, a different voice per speaker.
+// Optional temp voice, one clip per line, a different voice per speaker.
+// Uses Kokoro (neural; set up with scripts/setup-voice.sh) when installed, else espeak-ng.
 // Clips are placed at each line's start and never stretch a cut: if a clip would run
 // past its line's duration it is regenerated faster, and playback is trimmed to the line.
 //   node scripts/make-voice.mjs [slug ...]      (default: all 10)
@@ -17,6 +18,11 @@ const has = (cmd) => {
     return false;
   }
 };
+const PY = '.venv/bin/python';
+if (fs.existsSync(PY) && fs.existsSync('models/kokoro-v1.0.onnx')) {
+  execFileSync(PY, ['-I', 'scripts/voice_kokoro.py', process.cwd(), ...process.argv.slice(2)], {stdio: 'inherit'});
+  process.exit(0);
+}
 if (!has('espeak-ng')) {
   console.log('espeak-ng not found: skipping temp voice (videos stay silent).');
   process.exit(0);

@@ -8,7 +8,8 @@ Visuals are placeholders; script lines, timing, cuts and graphic motion are mean
 
 ```bash
 npm install                 # also copies Poppins into public/fonts (no network needed at render time)
-npm run voice               # optional temp voice with espeak-ng (P1, P2 and extras get different voices)
+scripts/setup-voice.sh      # optional: installs the Kokoro neural TTS (.venv + ~350 MB model, git-ignored)
+npm run voice               # temp voice: Kokoro if set up, else espeak-ng (P1, P2 and extras get different voices)
 npm run check               # timing, captions, graphics and brand checks (also checks rendered MP4s in out/)
 
 npx remotion render 01-vocal out/01-vocal.mp4          # one video
@@ -50,5 +51,5 @@ still from the middle of every cut, labelled with the cut id.
 - **Captions.** A line longer than two lines is split into consecutive pages at sentence breaks where possible; the pages share the line's time by word count. The text is never edited.
 - **Slate.** Top left on every frame: `slug · cut id · frame <storyboard_frame> · HH:MM:SS:FF` (frame "—" when the shot list has `null`).
 - **Logo.** `public/socal-logo.png` (the original) has "FEBRUARY 26–28, 2025" printed under the shield. The animatics use `socal-logo-shield.png`, the same file cropped just above that line. Switch back with `LOGO_FILE` in `src/graphics/common.tsx`.
-- **Temp voice.** espeak-ng, placed at each line's start. A clip that would run long is regenerated faster; playback is cut at the line's end. Cuts are never stretched.
+- **Temp voice.** Kokoro-82M (Apache-2.0): P1 `am_michael`, P2 `af_heart`, extras `bm_george` (change `VOICES` in `scripts/voice_kokoro.py`). Each clip starts at its line's start. A clip that would run long is regenerated faster, and playback is cut at the line's end. Cuts are never stretched. Without Kokoro, `npm run voice` falls back to espeak-ng.
 - **Arrow glyph.** Poppins has no "→" (09 Memory info card), so that one character falls back to a system font.
